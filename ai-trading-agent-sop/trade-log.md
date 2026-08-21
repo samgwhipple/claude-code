@@ -196,3 +196,11 @@ Note: prior RESUME.md/trade-log.md content above this point was from a DIFFERENT
 **End of day 2026-08-21 book: BRK.B + ET + APTV, $20 each (~20%/position), ~$40 cash (40% buffer).**
 
 2026-08-21 19:33 UTC | hourly-check | — | — | — | Robinhood connector disconnected/unauthenticated (mcp__Robinhood__* tools unavailable) | No positions checked, no trades possible | Pushed notification to Sam, stopped per routine instructions | monitoring
+
+**2026-08-21 20:17 UTC — HANDOFF SESSION: connector re-verified, Routines recreated.** New session (this one). `ListConnectors` confirmed Robinhood `enabledInChat: true`; `get_accounts` confirmed 746043736 ("Agentic", `agentic_allowed: true`). Portfolio re-pulled: total $99.85 (cash $40, equity $59.85) — BRK.B $495.77-496.03 vs cost $497.30 (~-0.3%), ET $21.20-21.22 vs cost $21.15 (~+0.3%), APTV $48.28 vs cost $48.70 (~-0.9%). None near -15%/+25% stop/TP.
+
+Both prior Routines were gone (belonged to the disconnected session) and were recreated self-bound to this session:
+- `trig_01XsUsNTeKF4T9HoZQ22iLUY` — "Daily trading agent run", `40 13 * * 1-5` (9:40am ET weekdays).
+- `trig_01AbUFhWmQ4Xs8KDiHktAf9y` — "Hourly stop-loss/take-profit check", `30 14-19 * * 1-5` (10:30am-3:30pm ET weekdays).
+
+**Known limitation (flagged to Sam):** neither `create_trigger` (rejects `connectors` for this org) nor `update_trigger` (no `connectors` field in this tool version) can attach the Robinhood connector to a Routine in this session — the prior session's create-then-update workaround no longer works. Both Routines were created without connectors; each prompt instructs the fired session to check for `mcp__Robinhood__*` tool availability, and if absent, push-notify Sam and stop rather than proceeding blind. Sam needs to attach the Robinhood connector to both Routines via the claude.ai Routines UI before the first scheduled fire, or the daily/hourly runs will no-op with a notification instead of actually checking positions.
