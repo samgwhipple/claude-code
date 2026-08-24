@@ -241,3 +241,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 **Platform note:** first real-money order placed by an unattended Routine fire (no live Sam message in this turn) — filled cleanly, resolving the "known open risk" flagged in HANDOFF.md/the 8/21 log. No retry needed, no block encountered.
 
 **End of day 2026-08-24 book: BRK.B + ET + APTV + MU, ~$20 each (~20%/position), ~$20 cash (~20% buffer).**
+
+2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
