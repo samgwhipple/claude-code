@@ -279,6 +279,8 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 
 **Sizing lapse (self-flagged):** sized AMRZ at the full remaining $20 cash rather than leaving the SOP's own ≥5% cash buffer (shared-gate step 8) — should have sized ~$15-18 and kept a few dollars in reserve, or held cash instead of taking a 5th position with none left. Not a Hard Rule breach (the ≥5% cash line is a sizing guideline, not one of the numbered Hard Rules), and no unwind planned since AMRZ itself was fully verified — but future position sizing should reserve a buffer before spending the last of available cash, especially once the book is already at 4-5 positions.
 
+2026-08-25 14:32 UTC | hourly-check | — | — | — | Portfolio $99.94 (cash $0). BRK.B $502.55 (+1.1%), ET $21.09 (-0.3%), APTV $46.44 (-4.6%), MU $924.85 (+3.5%), AMRZ $43.945 (+0.03%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
