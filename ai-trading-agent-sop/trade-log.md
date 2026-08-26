@@ -288,6 +288,28 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 
 **End of day 2026-08-25 book: BRK.B + ET + APTV + MU + AMRZ, ~$20 each, cash $0, portfolio $100.16 (+0.16% vs $100 start).**
 
+---
+
+## 2026-08-26 — Daily Routine fire #3 (9:41am ET, `trig_01XsUsNTeKF4T9HoZQ22iLUY`)
+
+**Account/portfolio check:** 746043736 reconfirmed agentic-eligible. `get_portfolio`: $101.12 total, cash $0 — well above the $80 stop floor, but zero buying power available for any new position today regardless of what the scan finds.
+
+**Position management (stop/TP check):** BRK.B $505.43 vs cost $497.30 (+1.6%), ET $21.19 vs cost $21.15 (+0.2%), APTV $46.63 vs cost $48.70 (-4.3%), MU $936.00 vs cost $893.46 (+4.8%), AMRZ $45.29 vs cost $43.93 (+3.1%). None near -15%/+25% — no sells, so no cash freed up today.
+
+**Path A (politicians):** No new tickers vs. yesterday's cluster set — same ~18 tickers reappeared (accumulating, not fresh signal). NVDA and CRM both report earnings *today* (8/26 pm) — even more clearly disqualified than yesterday (0 trading days out, not 1-2). ABT/MSFT/MELI remain chase-disqualified (not re-verified in detail since cash is $0 either way); ZTS/SPCX unchanged reasoning from prior days. No Path A action.
+
+**Path C:** Kalshi CPI YoY market (KXCPIYOY-26AUG) still shows null bid/ask/volume on every strike; no open payrolls (KXUSNFP) event found either. No trade — third straight day of an unreadable/absent Signal-C market, consistent conservative default.
+
+**Path B (insiders):** Subagent scan, 2026-08-12 to 2026-08-25 (10 trading days), 6,103 Form-4s parsed, 1,056 qualifying P/A non-10b5-1 transactions, 103 clusters (2+ distinct insiders). All 14 known small/micro-cap carryovers reappeared (still disqualified on cap/price, not re-verified). New candidates that cleared the $5/$2B floor: **AMR** (Alpha Metallurgical Resources, coal, cap $2.79B — CEO Courtis made 3 separate buys 8/20-8/25 at rising prices $190→$217/share as the stock climbed, ~$7.2M total from him alone, plus a $2.09M buy from an affiliated entity; strong accelerating-conviction signal), **CE** (Celanese, cap $4.88B — 3 SVP-level execs bought together 8/11-8/14), **REZI** (Resideo, cap $2.99B — CEO + GC + SVP cluster 8/14-8/17), **TTMI** (TTM Technologies, cap $12.88B — CEO Roks $1.12M buy + another exec $524K, 8/24-8/25). MLAB and APLM cleared price but failed cap ($712M, $57M). BABA's Form-4 price mismatch from yesterday is now better explained (EDGAR reports BABA's underlying Hong Kong ordinary shares; ordinary-share price × 8 ≈ ADS price, consistent with the 1:8 ADS ratio) but still not independently confirmed — leaving it a skip either way today since there's no cash to trade it regardless.
+
+**Outcome: no trade today — zero buying power available, no stop/TP triggered to free any up.** AMR/CE/REZI/TTMI are logged as watch items for the next cycle where cash exists (a sell trigger or, per SOP, potentially trimming a position — not done today absent a real signal to do so); per the SOP's own rule, they'll need fresh re-verification (price, chase, earnings) whenever that happens rather than reused as-is.
+
+2026-08-26 | skip | AMR, CE, REZI, TTMI | — | insider | AMR: CEO Courtis 3 accelerating buys $190-217/sh + $2.09M affiliated-entity buy, cap $2.79B. CE: 3 SVP execs, cap $4.88B. REZI: CEO+GC+SVP, cap $2.99B. TTMI: CEO $1.12M + exec $524K, cap $12.88B | All pass price/cap floor; not traded — zero cash available today (portfolio 100% deployed across 5 positions, no sell trigger fired) | AUTONOMOUS skip (no capital, not a rules disqualification) | Phase-3-override
+2026-08-26 | skip | NVDA, CRM | — | politician | Same bipartisan/same-party clusters as 8/24-8/25 | DISQUALIFIED — both report earnings today (8/26 pm), 0 trading days out | AUTONOMOUS skip | Phase-3-override
+2026-08-26 | skip | ABT, MSFT, MELI, ZTS, SPCX | — | politician | Same clusters as prior days | Unchanged reasoning from 8/24-8/25 (chase, broken thesis, IPO-hype timing); not re-verified in detail since no cash to act regardless | AUTONOMOUS skip | Phase-3-override
+
+**End of day (mid-day, no further scan today): BRK.B + ET + APTV + MU + AMRZ unchanged, cash $0, portfolio $101.12.**
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
