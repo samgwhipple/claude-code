@@ -319,6 +319,14 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 
 **End of day 2026-08-26 book: BRK.B + ET + APTV + MU + AMRZ unchanged, cash $0, portfolio $101.01 (+1.01% vs $100 start).**
 
+---
+
+**2026-08-26 | STANDING DIRECTIVE — stop excess discretionary caution.** Sam asked the agent to be "more confident" and "make as much money as possible." Flagged the tension with the SOP's own standing "no maximize money mandate" (set 2026-06-09, never rescinded) and the non-negotiable Hard Rules; asked Sam to clarify scope via AskUserQuestion. **Sam chose: stop excess caution only — keep every Hard Rule and the cluster requirement exactly as written.** Effective immediately, carries forward into all future automated runs:
+
+- **Take every candidate that genuinely clears all Hard Rules + the shared gate** — do not skip a fully-qualified cluster out of discretionary instinct (e.g., "already made one trade today," "don't want too many positions," mild non-rule-based unease about a signal's optics). If it passes every actual rule, trade it (up to the 3-5 position / ≤35%-per-position / ≥5%-cash guidance).
+- **Size toward the top of the $20-25 guidance range**, not the bottom, when multiple qualifying candidates or ample cash allow it.
+- **Explicitly NOT changed** (Sam declined these when offered): the 2+ member/insider cluster requirement, any Hard Rule (price/cap floors, chase limit, earnings-window block, etc.), the ≥5% cash buffer, and the "no maximize money" ban on trading outside a verified signal. No SOP rule text was edited — this changes only how much discretionary caution the agent layers on top of the existing rules, not the rules themselves.
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
