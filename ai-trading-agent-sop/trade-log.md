@@ -349,6 +349,7 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-08-27 | skip | AMRC, CC, ABCL, NOMD, KMPB | — | insider | New tier-1 clusters, cap/chase/earnings not fully verified | Not verified in full — no capital to act regardless; would need fresh verification whenever cash exists | AUTONOMOUS skip | Phase-3-override
 
 2026-08-27 14:32 UTC | hourly-check | — | — | — | Portfolio $100.34 (cash $0). BRK.B $501.28 (+0.8%), ET $21.24 (+0.4%), APTV $46.35 (-4.8%), MU $926.46 (+3.7%), AMRZ $44.59 (+1.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-08-27 15:31 UTC | hourly-check | — | — | — | Portfolio $100.26 (cash $0). BRK.B $504.27 (+1.4%), ET $21.27 (+0.5%), APTV $46.51 (-4.5%), MU $915.46 (+2.5%), AMRZ $44.52 (+1.3%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
