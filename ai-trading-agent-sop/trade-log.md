@@ -348,6 +348,8 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-08-27 | skip | AMR, CE, REZI, TTMI | — | insider | AMR: cap $2.79B, Director Courtis 3 more accelerating buys through 8/25 ($9.23M total). CE: cap $4.88B, 3 SVP execs. REZI: cap $2.99B, CEO+GC+SVP. TTMI: cap $12.88B, now 2 insiders (CEO Roks joined 8/25, $1.12M) | All reconfirmed passing price/cap; not traded — zero cash available | AUTONOMOUS skip (no capital) | Phase-3-override
 2026-08-27 | skip | AMRC, CC, ABCL, NOMD, KMPB | — | insider | New tier-1 clusters, cap/chase/earnings not fully verified | Not verified in full — no capital to act regardless; would need fresh verification whenever cash exists | AUTONOMOUS skip | Phase-3-override
 
+2026-08-27 14:32 UTC | hourly-check | — | — | — | Portfolio $100.34 (cash $0). BRK.B $501.28 (+0.8%), ET $21.24 (+0.4%), APTV $46.35 (-4.8%), MU $926.46 (+3.7%), AMRZ $44.59 (+1.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
