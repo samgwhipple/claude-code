@@ -357,6 +357,28 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 
 **End of day 2026-08-27 book: BRK.B + ET + APTV + MU + AMRZ unchanged, cash $0, portfolio $100.01 (+0.01% vs $100 start).**
 
+---
+
+## 2026-08-28 — Daily Routine fire #5 (9:41am ET, `trig_01XsUsNTeKF4T9HoZQ22iLUY`)
+
+**Account/portfolio check:** 746043736 reconfirmed agentic-eligible. `get_portfolio`: $100.33 total, cash $0 — above the $80 floor, zero buying power (3rd day running).
+
+**Position management (stop/TP check):** BRK.B $503.19 vs cost $497.30 (+1.2%), ET $21.48 vs cost $21.15 (+1.6%), APTV $45.23 vs cost $48.70 (-7.1%), MU $930.48 vs cost $893.46 (+4.1%), AMRZ $44.75 vs cost $43.93 (+1.9%). None near -15%/+25% — no sells, no cash freed.
+
+**Path A (politicians):** Same recurring cluster set as yesterday (Kadoa feed unchanged, max filing_date still 2026-08-25). **GOOGL re-verified still clean**: bipartisan (Taylor-R + Rulli-R + Keating-D), essentially flat vs. entry (-0.3%), earnings not until 10/28. Remains the cleanest fully-qualified Path A candidate, unchanged from yesterday.
+
+**Path C:** Kalshi CPI YoY market still illiquid, no open payrolls event. No trade — 5th consecutive day.
+
+**Path B (insiders):** Subagent scan, 2026-08-14 to 2026-08-27 (10 trading days), 4,893 filings parsed, 87 tickers cleared the raw cluster gate. **AMR upgraded to a genuine 2-insider cluster** (Director Gorzynski joined Courtis's ongoing buys, $9.23M aggregate) — but re-verified against today's price and **now DISQUALIFIED for chase**: up +19.3% from Courtis's earliest 8/20 entry ($193.50→$230.76), even though Gorzynski's own 8/21 entry is still under 15%; using the same conservative (worst-case-member) standard applied all week. **TTMI similarly DISQUALIFIED**: up +16.6% from Geveden's 8/24 entry ($104.90→$122.27), though Roks's 8/25 entry alone would still be clean. **CE and REZI remain clean** — both flat-to-down vs. entry (CE +0.1-0.3%, REZI -1.6 to -2.6%), no near-term earnings, caps previously confirmed ($4.88B, $2.99B). New large candidate **BBAAY** (Alibaba ordinary shares, $25.7M aggregate CEO+Chairman buy) confirmed **not tradable on Robinhood** (empty search result) — excluded on tradability, not signal quality. **MAIR** ($219M single purchase by a 10%-owner days after apparent listing) flagged by the subagent as a likely PIPE/anchor-placement dressed as code P — excluded without further verification given the classic red flag (huge size, brand-new issuer, passive 10% holder). GABC/DKL/FOCL/RCG/HKHC/BXSY/SELF excluded as before (DRIP/programmatic-purchase signatures).
+
+**Outcome: no trade — zero buying power, no stop/TP fired to free any up (3rd straight no-cash day).** Under the "stop excess caution" stance, GOOGL + CE + REZI are all logged as fully-qualified "would buy today" candidates (AMR and TTMI dropped off the list today specifically because they now genuinely breach the chase rule, not from added caution). All three need fresh re-verification whenever real cash is next available.
+
+2026-08-28 | skip | GOOGL | — | politician | Bipartisan cluster: Taylor-R + Rulli-R + Keating-D | Re-verified clean (-0.3% vs entry, earnings clear until 10/28) — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-08-28 | skip | CE, REZI | — | insider | CE: 3 SVP execs, cap $4.88B, flat vs entry. REZI: CEO+GC+SVP, cap $2.99B, down slightly vs entry | Both clean, no chase, no near-term earnings — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-08-28 | skip | AMR, TTMI | — | insider | AMR: Courtis+Gorzynski, cap $2.79B. TTMI: Geveden+Roks, cap $12.9B | DISQUALIFIED today — AMR +19.3% since Courtis's 8/20 entry, TTMI +16.6% since Geveden's 8/24 entry, both breach Hard Rule 10 chase (worst-case-member standard) | AUTONOMOUS skip | Phase-3-override
+2026-08-28 | skip | BBAAY | — | insider | CEO Wu + Chairman Tsai, $25.7M agg, both non-10b5-1 | NOT Robinhood-tradable (confirmed via search, no match) — excluded on tradability | AUTONOMOUS skip | Phase-3-override
+2026-08-28 | skip | MAIR | — | insider | $219M single purchase by 10%-owner Bertarelli/KC Armada LP, brand-new issuer | Excluded — classic PIPE/anchor-placement signature (huge size, passive 10% holder, newly-listed issuer), not treated as organic conviction buying | AUTONOMOUS skip | Phase-3-override
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
