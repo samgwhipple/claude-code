@@ -380,6 +380,7 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-08-28 | skip | MAIR | — | insider | $219M single purchase by 10%-owner Bertarelli/KC Armada LP, brand-new issuer | Excluded — classic PIPE/anchor-placement signature (huge size, passive 10% holder, newly-listed issuer), not treated as organic conviction buying | AUTONOMOUS skip | Phase-3-override
 
 2026-08-28 14:31 UTC | hourly-check | — | — | — | Portfolio $100.50 (cash $0). BRK.B $504.65 (+1.5%), ET $21.45 (+1.4%), APTV $45.19 (-7.2%), MU $944.54 (+5.7%), AMRZ $44.37 (+1.0%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-08-28 15:31 UTC | hourly-check | — | — | — | Portfolio $100.34 (cash $0). BRK.B $505.61 (+1.7%), ET $21.32 (+0.8%), APTV $45.45 (-6.7%), MU $937.88 (+5.0%), AMRZ $44.35 (+1.0%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
