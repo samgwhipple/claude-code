@@ -413,6 +413,7 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-08-31 | skip | GOOGL | — | politician | Taylor-R (equity) + Keating-D (Alphabet corporate bond, same ticker in feed schema) | Not a real cluster — Keating's "buy" is a bond purchase, not equity; reduces to single-filer | AUTONOMOUS skip | Phase-3-override
 
 2026-08-31 14:31 UTC | hourly-check | — | — | — | Portfolio $100.21 (cash $0). BRK.B $503.75 (+1.3%), ET $21.47 (+1.5%), APTV $45.20 (-7.2%), MU $939.34 (+5.1%), AMRZ $44.05 (+0.3%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-08-31 15:31 UTC | hourly-check | — | — | — | Portfolio $100.24 (cash $0). BRK.B $502.96 (+1.1%), ET $21.475 (+1.5%), APTV $45.55 (-6.5%), MU $937.89 (+5.0%), AMRZ $43.93 (+0.0%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
