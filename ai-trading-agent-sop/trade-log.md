@@ -386,6 +386,32 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-08-28 18:31 UTC | hourly-check | — | — | — | Portfolio $100.39 (cash $0). BRK.B $505.68 (+1.7%), ET $21.32 (+0.8%), APTV $45.73 (-6.1%), MU $931.09 (+4.2%), AMRZ $44.51 (+1.3%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-28 19:31 UTC | hourly-check | — | — | — | Portfolio $100.40 (cash $0). BRK.B $505.35 (+1.6%), ET $21.27 (+0.6%), APTV $45.80 (-6.0%), MU $929.23 (+4.0%), AMRZ $44.705 (+1.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
+---
+
+## 2026-08-31 — Daily Routine fire #6 (9:41am ET, `trig_01XsUsNTeKF4T9HoZQ22iLUY`)
+
+**Account/portfolio check:** 746043736 reconfirmed agentic-eligible. `get_portfolio`: $100.31 total (cash $0, equity $100.31) — well above the $80 stop floor.
+
+**Position management (stop/TP check):** BRK.B $505.00 vs cost $497.30 (+1.5%), ET $21.445 vs cost $21.15 (+1.4%), APTV $45.14 vs cost $48.70 (-7.3%), MU $937.11 vs cost $893.46 (+4.9%), AMRZ $44.3192 vs cost $43.93 (+0.9%). None near -15%/+25% — no sells.
+
+**Path A (politicians):** Subagent scan of the Kadoa feed (window ~2026-07-17 to 2026-08-31, `is_late=0`). Habitual-trader exclusion list re-derived fresh via MAD-based outlier method: excluded Rohit Khanna (125 trades), April McClain Delaney (56), David H. McCormick (49), Richard Dean McCormick (26), Kevin Hern (15), Scott H. Peters (14) — next-highest kept filer had only 11. **Result: zero qualifying clusters.** One near-miss (GOOGL, Taylor-R + Keating-D) inspected and disqualified — Keating's "purchase" was an Alphabet corporate bond note sharing the equity ticker in the feed's schema, not a stock buy; reduces to a single filer (Taylor), not a cluster.
+
+**Path B (insiders):** Subagent scan, SEC EDGAR daily-index, 2026-08-17 to 2026-08-28 (10 trading days), 5,798 Form-4 accessions parsed, 503 qualifying code-P/non-10b5-1 purchases, 75 confirmed clusters after excluding 11 known false-positive patterns (DRIP: GABC/UMH; PIPE/private-placement: DKL/APLM/ODYS; coordinated same-day identical-price: EDAP/ONON; same-beneficial-owner: UTGN/BXSY; non-equity fund vehicles: 2 more). Verified the highest-conviction clean clusters against the full shared gate:
+- **Price <$5 (DISQUALIFIED):** ANGX ($4.23), INV ($1.29), AFCG ($3.59).
+- **Chase >15% (DISQUALIFIED):** PRE (+42.9% from Yeung's 8/20 $18.31 entry to current $26.16).
+- **Market cap <$2B (DISQUALIFIED):** REFI ($275M), LIEN ($233M), NOMD ($1.64B), MLAB ($713M), CODI ($846M), AMRC ($1.16B), TISI ($114M).
+- **PASSED ALL GATES (price, cap, chase — worst-case-member standard, earnings clear per 10-day calendar):** **NGL** (cap $2.31B, +14.1% worst-case chase from Raymond's 8/21 $16.25 — tight but clean), **DKS** (cap $12.4B, +7.6%), **TTMI** (cap $12.5B, +13.5% worst-case from Geveden's 8/24 $104.90 — cleared today after breaching 15% on 8/28), **ELAN** (cap $11.8B, +0.4%), **REZI** (cap $2.97B, -4.5%, recurring clean candidate), **ABCL** (cap $3.56B, +3.3%).
+
+**Path C:** Kalshi CPI/payrolls/core-CPI markets checked directly (KXCPIYOY, KXPAYROLLS, KXCPICORE) — every contract still shows null bid/ask/volume/open_interest, no live market-implied consensus. No trade — data unreachable, safe default per SOP.
+
+**Outcome: no trade — zero buying power, no stop/TP fired to free any up (6th straight no-cash day, extended over the weekend).** Under the "stop excess caution" stance, NGL/DKS/TTMI/ELAN/REZI/ABCL are all logged as fully-qualified "would buy today" candidates if capital were available. All need fresh re-verification whenever real cash is next available (chase % and earnings dates especially, since NGL and TTMI cleared only narrowly today).
+
+2026-08-31 | skip | NGL, DKS, TTMI, ELAN, REZI, ABCL | — | insider | NGL: 2 dirs (Raymond+Collingsworth), cap $2.31B. DKS: 4 dirs, cap $12.4B. TTMI: Geveden+Roks (Dir/CEO), cap $12.5B. ELAN: GC+Dir, cap $11.8B. REZI: CEO+GC+SVP, cap $2.97B. ABCL: 2 dirs, cap $3.56B | All pass price/cap/chase/earnings gates — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-08-31 | skip | ANGX, INV, AFCG | — | insider | Real clusters, all under $5/share | DISQUALIFIED — sub-$5 hard floor | AUTONOMOUS skip | Phase-3-override
+2026-08-31 | skip | REFI, LIEN, NOMD, MLAB, CODI, AMRC, TISI | — | insider | Real clusters, caps $114M-$1.64B | DISQUALIFIED — sub-$2B hard floor | AUTONOMOUS skip | Phase-3-override
+2026-08-31 | skip | PRE | — | insider | Yeung (CEO) + Rosin (CFO of subsidiary), cap ok | DISQUALIFIED — +42.9% chase from earliest entry (8/20 $18.31 → current $26.16) | AUTONOMOUS skip | Phase-3-override
+2026-08-31 | skip | GOOGL | — | politician | Taylor-R (equity) + Keating-D (Alphabet corporate bond, same ticker in feed schema) | Not a real cluster — Keating's "buy" is a bond purchase, not equity; reduces to single-filer | AUTONOMOUS skip | Phase-3-override
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
