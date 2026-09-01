@@ -419,6 +419,34 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-08-31 18:31 UTC | hourly-check | — | — | — | BRK.B $504.98 (+1.6%), ET $21.51 (+1.7%), APTV $45.37 (-6.8%), MU $947.10 (+6.0%), AMRZ $43.91 (-0.1%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-31 19:31 UTC | hourly-check | — | — | — | Portfolio $100.22 (cash $0, last check of trading day). BRK.B $503.72 (+1.3%), ET $21.50 (+1.7%), APTV $45.04 (-7.5%), MU $947.02 (+6.0%), AMRZ $43.78 (-0.3%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
+---
+
+## 2026-09-01 — Daily Routine fire #7 (9:41am ET, `trig_01XsUsNTeKF4T9HoZQ22iLUY`)
+
+**Account/portfolio check:** 746043736 reconfirmed agentic-eligible. `get_portfolio`: $99.96 total (cash $0, equity $99.96) — well above the $80 stop floor.
+
+**Position management (stop/TP check):** BRK.B $505.245 vs cost $497.30 (+1.6%), ET $21.685 vs cost $21.15 (+2.5%), APTV $44.94 vs cost $48.70 (-7.7%), MU $934.36 vs cost $893.46 (+4.6%), AMRZ $43.265 vs cost $43.93 (-1.5%). None near -15%/+25% — no sells.
+
+**Path A (politicians):** Subagent scan of the Kadoa feed (window 2026-07-21 to 2026-09-01, all is_late=0). Habitual-trader exclusion list re-derived fresh — natural break at David H. McCormick-Sen (49), April McClain Delaney (47), Rohit Khanna (34), Richard Dean McCormick-House (26); next tier (Peters 14, Fleischmann/Hern 11, Taylor 9) flagged but kept as within-normal-range. Also caught a schema issue: several "Common Stock" rows were mislabeled corporate notes/CDs/ETF/T-Bill positions sharing the issuer's equity ticker — filtered on asset-name text, not just asset_type. **Result: zero qualifying clusters.** Two near-misses inspected: BRK.B (Salazar-R + McCormick-House, but McCormick is now habitual-excluded → single filer) and GOOGL (Taylor-R common stock + Keating-D's position is a mislabeled bond note, not equity → single filer). Neither is a real cluster.
+
+**Path B (insiders):** Subagent scan, SEC EDGAR daily-index, 2026-08-18 to 2026-08-31 (10 trading days), 5,523 Form-4 filings / 4,529 accessions with 2+ distinct filer CIKs parsed, 656 qualifying code-P/non-10b5-1 purchases, 82 raw clusters → 66 confirmed after excluding 16 same-beneficial-owner/joint-filer patterns (family trusts, fund-manager complexes, sponsor entities, SPAC/PE GP chains — e.g. RSG's "cluster" was Bill Gates' Cascade Investment reported alongside Gates himself). Verified the highest-conviction clusters against the full shared gate:
+- **Price <$5 (DISQUALIFIED):** AIAI ($3.45), INV ($1.51, also soft-flagged as round-price/company-facilitated), BIVI ($2.1), ODYS ($3.20, soft-flagged), BMRA ($1.60, soft-flagged), LFT, IDAI, SLNH, DGXX, BATL, GEVO, VRXA, DFDV, APCX, JUSH, PHIO, BRLT (all sub-$5).
+- **Chase >15% (DISQUALIFIED):** AMR (+24.1% from Courtis's 8/20 $189.84 entry to current $235.59, worse than yesterday), PRTS (+27.2% from Phelps's 8/20 $6.15 entry to current $7.82, spiked hard today).
+- **Non-organic purchase pattern (EXCLUDED, not a hard-rule breach):** MAIR — the "2nd insider" (Bertarelli/KC Armada, 8.77M sh @ $24.97) reads as a negotiated block/PIPE-style purchase, not open-market conviction; only La Force's smaller buy is genuine, leaving 1 real independent insider.
+- **Market cap <$2B (DISQUALIFIED):** SCOR ($79M — comScore is a micro-cap despite passing the $5 price bar), GWRS ($265M), AMRC ($1.16B, recurring), NOMD ($1.64B, recurring), REFI/LIEN/TISI (recurring small).
+- **Not Robinhood-tradable:** HKHC (no match).
+- **PASSED ALL GATES (price, cap, chase — worst-case-member standard, earnings clear per 10-day calendar):** **DKS** (cap $12.4B, +3.3% chase, improved from yesterday), **NGL** (cap $2.31B, +14.0% chase — still tight but clean), **TTMI** (cap $12.5B, +10.0% chase, improved from yesterday), **ELAN** (cap $11.8B, +2.4% chase), **ABCL** (cap $3.56B, +2.6% chase), **BABA** (cap $281.4B, new candidate — Wu/CEO + Tsai/co-founder, $25.7M agg 8/24-25; filing prices are in HK-listed ordinary shares ~$14.24-14.47, converted to ADS-equivalent via the ~8:1 ratio ≈ $113.92-115.76, current ADS price $113.27 is at/below that band so no chase breach — flagging the conversion methodology since it's inherently approximate).
+
+**Path C:** Kalshi CPI/payrolls markets checked directly — still zero bid/ask/volume/open_interest on every contract, no live market-implied consensus. No trade — data unreachable, safe default per SOP.
+
+**Outcome: no trade — zero buying power, no stop/TP fired to free any up (7th straight no-cash day).** Under the "stop excess caution" stance, DKS/NGL/TTMI/ELAN/ABCL/BABA are all logged as fully-qualified "would buy today" candidates if capital were available (AMRZ also recurred as a cluster but is already held, no new action). All need fresh re-verification whenever real cash is next available.
+
+2026-09-01 | skip | DKS, NGL, TTMI, ELAN, ABCL, BABA | — | insider | DKS: 4 dirs, cap $12.4B. NGL: 2 dirs, cap $2.31B. TTMI: Geveden+Roks, cap $12.5B. ELAN: GC+Dir, cap $11.8B. ABCL: 2 dirs, cap $3.56B. BABA: CEO Wu+co-founder Tsai, cap $281.4B | All pass price/cap/chase/earnings gates — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-09-01 | skip | AMR, PRTS | — | insider | AMR: Courtis+Gorzynski, cap ~$4B+. PRTS: Phelps+Meniane+Huffaker | DISQUALIFIED — AMR +24.1% chase, PRTS +27.2% chase | AUTONOMOUS skip | Phase-3-override
+2026-09-01 | skip | MAIR | — | insider | La Force (Dir, genuine) + Bertarelli/KC Armada (10%-owner, $219M block) | Bertarelli leg excluded as likely negotiated block/PIPE, not open-market conviction — leaves only 1 real insider | AUTONOMOUS skip | Phase-3-override
+2026-09-01 | skip | SCOR, GWRS, HKHC | — | insider | SCOR: cap $79M. GWRS: cap $265M. HKHC: not Robinhood-tradable | DISQUALIFIED — sub-$2B cap or untradable | AUTONOMOUS skip | Phase-3-override
+2026-09-01 | skip | AIAI, INV, BIVI, ODYS, BMRA + 12 others | — | insider | Real clusters, all under $5/share (several also soft-flagged round-price patterns) | DISQUALIFIED — sub-$5 hard floor | AUTONOMOUS skip | Phase-3-override
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
