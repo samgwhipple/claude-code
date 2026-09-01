@@ -448,6 +448,7 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-01 | skip | AIAI, INV, BIVI, ODYS, BMRA + 12 others | — | insider | Real clusters, all under $5/share (several also soft-flagged round-price patterns) | DISQUALIFIED — sub-$5 hard floor | AUTONOMOUS skip | Phase-3-override
 
 2026-09-01 14:31 UTC | hourly-check | — | — | — | Portfolio $99.97 (cash $0). BRK.B $505.63 (+1.7%), ET $21.605 (+2.1%), APTV $44.835 (-7.9%), MU $937.315 (+4.9%), AMRZ $43.515 (-0.9%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-09-01 15:31 UTC | hourly-check | — | — | — | BRK.B $504.005 (+1.4%), ET $21.5899 (+2.1%), APTV $45.275 (-7.0%), MU $956.89 (+7.1%), AMRZ $43.25 (-1.6%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
