@@ -454,6 +454,31 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-01 18:31 UTC | hourly-check | — | — | — | BRK.B $501.45 (+0.8%), ET $21.53 (+1.8%), APTV $45.17 (-7.3%), MU $931.50 (+4.3%), AMRZ $43.065 (-2.0%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-01 19:31 UTC | hourly-check | — | — | — | Last check of trading day. BRK.B $502.28 (+1.0%), ET $21.58 (+2.0%), APTV $45.18 (-7.2%), MU $929.70 (+4.1%), AMRZ $42.925 (-2.3%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
+---
+
+## 2026-09-02 — Daily Routine fire #8 (9:40am ET, `trig_01XsUsNTeKF4T9HoZQ22iLUY`)
+
+**Account/portfolio check:** 746043736 reconfirmed agentic-eligible. `get_portfolio`: $99.47 total (cash $0, equity $99.47) — well above the $80 stop floor.
+
+**Position management (stop/TP check):** BRK.B $504.12 vs cost $497.30 (+1.4%), ET $21.28 vs cost $21.15 (+0.6%), APTV $45.55 vs cost $48.70 (-6.5%), MU $949.17 vs cost $893.46 (+6.2%), AMRZ $41.97 vs cost $43.93 (-4.5%). None near -15%/+25% — no sells.
+
+**Path A (politicians):** Subagent scan of the Kadoa feed (window 2026-07-22 to 2026-09-02, all is_late=0, common-stock purchases only). Habitual-trader exclusion list re-derived fresh — clean break at David H. McCormick-Sen (48), April McClain Delaney (45), Rohit Khanna (30), Richard Dean McCormick-House (26); next filer (Peters, 14) sits right at the top of the normal range with nothing between 14 and 26. **Result: zero qualifying clusters.** Same two near-misses as recent days (BRK.B: McCormick habitual-excluded; GOOGL: Keating's "buy" is a mislabeled bond note) — neither is a real cluster.
+
+**Path B (insiders):** Subagent scan, SEC EDGAR daily-index + full-text search, 2026-08-19 to 2026-09-01 (10 trading days — confirmed 9/1 is NOT a holiday, Labor Day 2026 is 9/7; the agent verified this empirically against a live index file rather than assuming), 5,075 accessions / 4,110 filings with 2+ distinct filer CIKs parsed, 198 qualifying code-P/non-10b5-1 purchases, 23 raw clusters → 19 confirmed after excluding non-traded-fund NAV subscriptions, round-price coordinated buys (BMRA, ODYS), and stale/delinquent filings (CCHH). Verified against the full shared gate:
+- **Price <$5 (DISQUALIFIED):** FTCI, LBGJ, VENU, AIAI ($3.52 today), SLNH, DGXX, VRXA, APCX, BIVI, PHIO (10 tickers, all sub-$5).
+- **Market cap <$2B (DISQUALIFIED):** REFI ($275M, recurring), LIEN ($233M, recurring), CCAP ($386M), AIIR ($1.28B — new candidate, shisha/tobacco products, Dubai-based).
+- **Not Robinhood-tradable:** HKHC (recurring, no match).
+- **PASSED ALL GATES (price, cap, chase — worst-case-member standard, earnings clear per calendar):** **BABA** (cap $281.4B, recurring — Wu/CEO + Tsai/co-founder; ordinary-share entry prices $14.24-14.47 convert to ADS-equivalent ~$113.92-115.76 via the ~8:1 ratio, current ADS price $112.76 is below that band, no chase), **TTMI** (cap $12.5B, recurring — Geveden+Roks, +8.5% chase from Geveden's 8/24 $104.90 entry, improving day over day), **EQPT** (cap $4.42B, new candidate — EquipmentShare.com, father/son co-founders Schlacks Sr./Jr., down -6.5% from worst-case entry so no chase issue; flagged that the two insiders are related, correlated conviction not fully independent, but both are distinct Section-16 filers per SOP's cluster definition).
+- AMRZ also recurred as a cluster (Singleton+Sanche) but is already held — no new action.
+
+**Path C:** Kalshi CPI/payrolls markets checked directly — still zero bid/ask/volume/open_interest on every contract. No trade — data unreachable, safe default per SOP.
+
+**Outcome: no trade — zero buying power, no stop/TP fired to free any up (8th straight no-cash day).** Under the "stop excess caution" stance, BABA/TTMI/EQPT are logged as fully-qualified "would buy today" candidates if capital were available. All need fresh re-verification whenever real cash is next available.
+
+2026-09-02 | skip | BABA, TTMI, EQPT | — | insider | BABA: CEO Wu+co-founder Tsai, cap $281.4B. TTMI: Geveden+Roks, cap $12.5B. EQPT: Schlacks Sr.+Jr. (father/son), cap $4.42B | All pass price/cap/chase/earnings gates — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-09-02 | skip | REFI, LIEN, CCAP, AIIR, HKHC | — | insider | REFI: cap $275M. LIEN: cap $233M. CCAP: cap $386M. AIIR: cap $1.28B. HKHC: not Robinhood-tradable | DISQUALIFIED — sub-$2B cap or untradable | AUTONOMOUS skip | Phase-3-override
+2026-09-02 | skip | FTCI, LBGJ, VENU, AIAI, SLNH, DGXX, VRXA, APCX, BIVI, PHIO | — | insider | Real clusters, all under $5/share | DISQUALIFIED — sub-$5 hard floor | AUTONOMOUS skip | Phase-3-override
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
