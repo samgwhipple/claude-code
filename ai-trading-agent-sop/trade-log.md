@@ -479,6 +479,8 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-02 | skip | REFI, LIEN, CCAP, AIIR, HKHC | — | insider | REFI: cap $275M. LIEN: cap $233M. CCAP: cap $386M. AIIR: cap $1.28B. HKHC: not Robinhood-tradable | DISQUALIFIED — sub-$2B cap or untradable | AUTONOMOUS skip | Phase-3-override
 2026-09-02 | skip | FTCI, LBGJ, VENU, AIAI, SLNH, DGXX, VRXA, APCX, BIVI, PHIO | — | insider | Real clusters, all under $5/share | DISQUALIFIED — sub-$5 hard floor | AUTONOMOUS skip | Phase-3-override
 
+2026-09-02 14:31 UTC | hourly-check | — | — | — | BRK.B $506.78 (+1.9%), ET $21.34 (+0.9%), APTV $45.636 (-6.3%), MU $946.48 (+5.9%), AMRZ $42.14 (-4.1%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
