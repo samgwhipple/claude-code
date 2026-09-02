@@ -484,6 +484,7 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-02 16:31 UTC | hourly-check | — | — | — | BRK.B $507.755 (+2.1%), ET $21.515 (+1.7%), APTV $45.38 (-6.8%), MU $946.465 (+5.9%), AMRZ $42.66 (-2.9%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-02 17:31 UTC | hourly-check | — | — | — | BRK.B $507.46 (+2.0%), ET $21.515 (+1.7%), APTV $45.21 (-7.2%), MU $945.53 (+5.8%), AMRZ $42.76 (-2.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-02 18:31 UTC | hourly-check | — | — | — | BRK.B $506.99 (+2.0%), ET $21.5229 (+1.8%), APTV $45.64 (-6.3%), MU $947.62 (+6.1%), AMRZ $42.85 (-2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-09-02 19:31 UTC | hourly-check | — | — | — | Last check of trading day. BRK.B $505.45 (+1.6%), ET $21.53 (+1.8%), APTV $45.20 (-7.2%), MU $953.805 (+6.8%), AMRZ $42.905 (-2.3%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
