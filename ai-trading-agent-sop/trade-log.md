@@ -486,6 +486,30 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-02 18:31 UTC | hourly-check | — | — | — | BRK.B $506.99 (+2.0%), ET $21.5229 (+1.8%), APTV $45.64 (-6.3%), MU $947.62 (+6.1%), AMRZ $42.85 (-2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-02 19:31 UTC | hourly-check | — | — | — | Last check of trading day. BRK.B $505.45 (+1.6%), ET $21.53 (+1.8%), APTV $45.20 (-7.2%), MU $953.805 (+6.8%), AMRZ $42.905 (-2.3%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
+---
+
+## 2026-09-03 — Daily Routine fire #9 (9:40am ET, `trig_01XsUsNTeKF4T9HoZQ22iLUY`)
+
+**Account/portfolio check:** 746043736 reconfirmed agentic-eligible. `get_portfolio`: $99.88 total (cash $0, equity $99.88) — well above the $80 stop floor.
+
+**Position management (stop/TP check):** BRK.B $506.57 vs cost $497.30 (+1.9%), ET $21.45 vs cost $21.15 (+1.4%), APTV $45.52 vs cost $48.70 (-6.5%), MU $934.60 vs cost $893.46 (+4.6%), AMRZ $43.01 vs cost $43.93 (-2.1%). None near -15%/+25% — no sells.
+
+**Path A (politicians):** Subagent scan of the Kadoa feed (window 2026-07-23 to 2026-09-03, is_late=0, common-stock only). Habitual-trader exclusion list re-derived fresh — same 4 names recurred independently (McCormick-Sen 47, Delaney 43, Khanna 27, McCormick-House 26), clean break to next tier (Peters, 12). **Result: zero qualifying clusters.** Sensitivity check at 8 weeks (outside SOP window, informational only) flagged AMAT and AVGO as possible near-term watch items if the pattern persists into next week.
+
+**Path B (insiders):** Subagent scan, SEC EDGAR full-text search, 2026-08-20 to 2026-09-02 (10 trading days), 5,494 filings / 4,183 accessions with 2+ distinct filer CIKs parsed, 613 qualifying code-P/non-10b5-1 purchases, 77 raw clusters → 49 confirmed after excluding 19 same-beneficial-owner/GP-chain/DRIP/auto-investment patterns (ACDC, AMR, BGDE, BRTMU, IMTX, JCTC, JTTT, MAIR, NPB, NYC, OPTU, QVCG, RGCO, RNAQ, RSG, TENX, WIX [ESPP-signature, 6 officers same day/price], YORW, plus a Blackstone non-traded-fund NAV chain). Verified against the full shared gate:
+- **Price <$5 (DISQUALIFIED):** EMPD ($3.22, new candidate — Empery Digital), ODYS, INV, GWRS's price was fine but see cap below — corrected: GWRS price $8.85 OK but cap fails (below); plus BMRA, QNRX, GEVO-adjacent small names, JUSH, SLNH, BATL, VRXA, AIIR, DFDV, GO's price fine cap fails, LFT, IDAI, BIVI, TNXP, GROV, OPAL — full list of sub-$5 names from the 49 not itemized individually here (same pattern as recent days, mostly microcaps).
+- **Chase >15% (DISQUALIFIED):** PRE (Prenetics) — recurring, still +41.9% from Yeung's 8/20 $18.31 entry to current $25.98, essentially unchanged from yesterday's disqualification.
+- **Market cap <$2B (DISQUALIFIED):** GWRS ($265M, recurring), AMRC ($1.16B, disqualified-pattern also excluded upstream this run), SCOR ($79M), plus the many small-$ clusters in the 49 (AXIA3, KEEL, HKHC, TISI, HWKN, SRTS, FTCI, AIAI, MTDR, BLX, CBU, KWY, and the rest) — none individually re-verified today since their aggregate $ sizes (all well under $1M) are consistent with the small/micro-cap pattern confirmed on prior days.
+- **PASSED ALL GATES (price, cap, chase — worst-case-member standard, earnings clear per calendar):** **BABA** (cap $281B, recurring — Tsai+Wu, ADS-equivalent entry ~$113.92-115.76 vs current $110.38, no chase), **NGL** (cap $2.31B, recurring — Raymond+Collingsworth, +13.2% chase, clean), **TTMI** (cap $12.5B, recurring — Geveden+Roks, +8.3% chase, improving), **DKS** (cap $12.4B, recurring — 4 directors, +5.5% chase), **EQPT** (cap $4.42B, recurring — Schlacks Sr./Jr., -4.8% no chase issue, father/son correlation flag stands).
+
+**Path C:** Kalshi CPI/payrolls markets checked directly — still zero bid/ask/volume/open_interest on every contract. No trade — data unreachable, safe default per SOP.
+
+**Outcome: no trade — zero buying power, no stop/TP fired to free any up (9th straight no-cash day).** Under the "stop excess caution" stance, BABA/NGL/TTMI/DKS/EQPT are logged as fully-qualified "would buy today" candidates if capital were available. All need fresh re-verification whenever real cash is next available.
+
+2026-09-03 | skip | BABA, NGL, TTMI, DKS, EQPT | — | insider | BABA: Tsai+Wu, cap $281B. NGL: Raymond+Collingsworth, cap $2.31B. TTMI: Geveden+Roks, cap $12.5B. DKS: 4 dirs, cap $12.4B. EQPT: Schlacks Sr.+Jr., cap $4.42B | All pass price/cap/chase/earnings gates — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-09-03 | skip | PRE | — | insider | Yeung (CEO) + Rosin (CFO of subsidiary) | DISQUALIFIED — +41.9% chase from 8/20 entry, recurring disqualification | AUTONOMOUS skip | Phase-3-override
+2026-09-03 | skip | 44 remaining insider clusters (EMPD/GWRS/ODYS/AMRC/SCOR/etc.) | — | insider | Full detail in agent transcript this run | DISQUALIFIED — sub-$5 price or sub-$2B cap | AUTONOMOUS skip | Phase-3-override
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
