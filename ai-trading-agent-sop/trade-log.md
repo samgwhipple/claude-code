@@ -517,6 +517,32 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-03 18:31 UTC | hourly-check | — | — | — | BRK.B $506.86 (+1.9%), ET $21.53 (+1.8%), APTV $46.335 (-4.9%), MU $951.33 (+6.5%), AMRZ $43.81 (-0.3%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-03 19:31 UTC | hourly-check | — | — | — | Last check of trading day. BRK.B $507.47 (+2.0%), ET $21.455 (+1.4%), APTV $46.49 (-4.5%), MU $949.475 (+6.3%), AMRZ $43.67 (-0.6%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 
+---
+
+## 2026-09-04 — Daily Routine fire #10 (9:40am ET, `trig_01XsUsNTeKF4T9HoZQ22iLUY`)
+
+**Account/portfolio check:** 746043736 reconfirmed agentic-eligible. `get_portfolio`: $101.56 total (cash $0, equity $101.56) — first time above the $100 starting point, well above the $80 stop floor.
+
+**Position management (stop/TP check):** BRK.B $506.42 vs cost $497.30 (+1.8%), ET $21.30 vs cost $21.15 (+0.7%), APTV $46.135 vs cost $48.70 (-5.3%), MU $991.20 vs cost $893.46 (+10.9%), AMRZ $43.66 vs cost $43.93 (-0.6%). None near -15%/+25% — no sells.
+
+**Path A (politicians):** Subagent scan of the Kadoa feed (window 2026-07-24 to 2026-09-04, is_late=0, common-stock only). Habitual-trader exclusion list re-derived fresh — less crisp break than usual this run; chose top-4 (McCormick-Sen 47, Hern 40 — new to the top tier, displacing Khanna, Delaney 39, McCormick-House 26) vs. next tier (Khanna dropped to 17, Peters/Fleischmann 11). **Result: one qualifying cluster — AAPL** (Cleo Fields-D + Ed Case-D, both 8/13, single-party). Verified against shared gate: cap ~$3.5T ✓, price $324 ✓, chase +6.2% from the 8/13 close ($305.26→$324.24) ✓, no near-term earnings ✓. **Fully qualified.**
+
+**Path B (insiders):** Subagent scan, SEC EDGAR full-text search, 2026-08-21 to 2026-09-03 (10 trading days), 6,016 filings / 4,740 accessions with 2+ distinct filer CIKs parsed, 471 qualifying code-P/non-10b5-1 purchases, 58 raw clusters → 47 confirmed after excluding same-day/same-price coordinated-program patterns (WIX, BMRA, QNRX, UMBF, RGCO, PRTS) and related-entity/same-beneficial-owner chains (UTGN, RCG) plus 4 non-traded-fund NAV-subscription vehicles. Caught and fixed a parser bug mid-run (the 10b5-1 flag is document-level, not per-transaction — corrected before finalizing). Verified against the full shared gate:
+- **Price <$5 (DISQUALIFIED):** BIVI, JUSH, FTCI, VENU, GROV, GPUS, OPAL, BATL, GEVO, SLNH, VRXA, APCX (12 tickers).
+- **Chase >15% (DISQUALIFIED):** **TISI** (+18.4% from Horton's 8/21 $23.15 entry — newly breached today), **TTMI** (+15.9% from Geveden's 8/24 $104.90 entry — recurring candidate newly disqualified after a sharp jump today).
+- **Market cap <$2B (DISQUALIFIED):** AMRC ($1.16B), AXIA3 (not Robinhood-tradable), HKHC (not tradable), AIIR ($1.28B), LIEN ($233M), UAMY ($792M), CWBC ($716M), LUCK ($846M), AVBC ($444M), SCOR ($79M), plus remaining small-$ clusters (JMSB, CBU, SNFI, SWZ, SDHC, emyb, LFT, HYNE, UNB, FRST, BRID, KWY — all consistent with the small/micro-cap pattern).
+- **Excluded (non-organic pattern):** MAIR (Bertarelli/KC Armada $219M block — negotiated purchase, not open-market conviction; only 1 real independent insider), AMR (Courtis, +24%+ chase, recurring disqualification).
+- **PASSED ALL GATES (price, cap, chase — worst-case-member standard, earnings clear per calendar):** **BABA** (cap $281B, recurring — ADS-equivalent entry ~$113.92-115.76 vs current $112.62, no chase), **NGL** (cap ~$2.3B, recurring — +11.4% chase), **EQPT** (cap $4.42B, recurring — Schlacks Sr./Jr., +9.0% chase using the wider $17.03 entry), **DKS** (cap $12.4B, recurring — 4 directors, +9.2% chase), **HWKN** (cap $2.70B, new candidate — Hawkins Inc, EVP/CFO Oldenkamp + VP Lange, +8.8% chase), **BLX** (cap $2.02B, new candidate — Bladex, CRO Tizzoni + CFO Van Hoorde, +6.1% chase), **MTDR** (cap $7.27B, new candidate — Matador Resources, Chairman/CEO Foran + CFO Calvert, +7.8% chase).
+
+**Path C:** Kalshi CPI/payrolls markets checked directly — still zero bid/ask/volume/open_interest on every contract (August payrolls contract rolled off, September contracts not yet liquid). No trade — data unreachable, safe default per SOP.
+
+**Outcome: no trade — zero buying power despite portfolio crossing $101.56, no stop/TP fired to free any up (10th straight no-cash day).** Under the "stop excess caution" stance, AAPL/BABA/NGL/EQPT/DKS/HWKN/BLX/MTDR are all logged as fully-qualified "would buy today" candidates if capital were available — the largest single-day watch list yet. All need fresh re-verification whenever real cash is next available.
+
+2026-09-04 | skip | AAPL | — | politician | Cleo Fields (D) + Ed Case (D), both 8/13, single-party | Passes all gates (cap $3.5T, +6.2% chase, no near-term earnings) — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-09-04 | skip | BABA, NGL, EQPT, DKS, HWKN, BLX, MTDR | — | insider | BABA: Wu+Tsai, cap $281B. NGL: Raymond+Collingsworth, cap $2.3B. EQPT: Schlacks Sr.+Jr., cap $4.42B. DKS: 4 dirs, cap $12.4B. HWKN: Oldenkamp+Lange, cap $2.70B. BLX: Tizzoni+Van Hoorde, cap $2.02B. MTDR: Foran+Calvert, cap $7.27B | All pass price/cap/chase/earnings gates — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-09-04 | skip | TISI, TTMI | — | insider | TISI: Horton+Roeder. TTMI: Geveden+Roks | DISQUALIFIED — TISI +18.4% chase, TTMI +15.9% chase (both newly breached today) | AUTONOMOUS skip | Phase-3-override
+2026-09-04 | skip | MAIR, AMR | — | insider | MAIR: La Force (genuine) + Bertarelli/KC Armada ($219M block). AMR: Courtis | MAIR's Bertarelli leg excluded as negotiated block purchase; AMR recurring chase disqualification (+24%+) | AUTONOMOUS skip | Phase-3-override
+
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 16:32 UTC | hourly-check | — | — | — | Portfolio $100.20. BRK.B $501.77 (+0.9%), ET $21.11 (-0.2%), APTV $47.60 (-2.3%), MU $916.10 (+2.5%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
