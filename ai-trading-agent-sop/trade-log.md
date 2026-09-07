@@ -556,6 +556,7 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-07 16:31 UTC | hourly-check | — | — | — | Market holiday (Labor Day), confirmed earlier today — no new trading session | No positions checked, market closed | No action, holiday no-op | monitoring
 2026-09-07 17:31 UTC | hourly-check | — | — | — | Market holiday (Labor Day), confirmed earlier today — no new trading session | No positions checked, market closed | No action, holiday no-op | monitoring
 2026-09-07 18:31 UTC | hourly-check | — | — | — | Market holiday (Labor Day), confirmed earlier today — no new trading session | No positions checked, market closed | No action, holiday no-op | monitoring
+2026-09-07 19:31 UTC | hourly-check | — | — | — | Last check of Labor Day holiday window. Market closed all day, confirmed earlier — no new trading session | No positions checked, market closed | No action, holiday no-op | monitoring
 
 2026-08-24 14:32 UTC | hourly-check | — | — | — | Portfolio $99.89. BRK.B $502.31 (+1.0%), ET $21.13 (-0.1%), APTV $47.62 (-2.2%), MU $899.33 (+0.7%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-08-24 15:32 UTC | hourly-check | — | — | — | Portfolio $99.80. BRK.B $502.62 (+1.1%), ET $21.00 (-0.7%), APTV $47.71 (-2.0%), MU $900.63 (+0.8%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
