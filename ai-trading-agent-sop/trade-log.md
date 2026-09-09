@@ -633,3 +633,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-09 | skip | INBX, TISI, EQPT, PRTS | — | insider | INBX: Forsyth+Lappe+Kayyem. TISI: Horton+Roeder. EQPT: Schlacks Sr.+Jr. PRTS: Phelps+Meniane+Huffaker | DISQUALIFIED — chase +27.9%/+18.7%/+16.8%/+54.5% respectively, all >15% | AUTONOMOUS skip | Phase-3-override
 2026-09-09 | skip | KWY, OBIO, BRID, LUCK, GRNT, RGCO, UAMY + recurring small-caps | — | insider | See full detail above | DISQUALIFIED — sub-$2B cap | AUTONOMOUS skip | Phase-3-override
 2026-09-09 | skip | MAIR, DYNR, LILA | — | insider | MAIR: Bertarelli block. DYNR: PIPE unit deal. LILA: Malone common vs De Angoitia preference-class (different security) | EXCLUDED — non-organic/mismatched-security purchase patterns | AUTONOMOUS skip | Phase-3-override
+
+2026-09-09 14:31 UTC | hourly-check | — | — | — | Portfolio $101.18 (cash $0). BRK.B $504.96 (+1.54%), ET $21.605 (+2.15%), APTV $45.18 (-7.23%), MU $1031.38 (+15.44%), AMRZ $41.30 (-5.98%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
