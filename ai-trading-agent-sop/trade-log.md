@@ -585,3 +585,23 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-08 17:31 UTC | hourly-check | — | — | — | Portfolio $101.53 (cash $0). BRK.B $504.57 (+1.46%), ET $21.465 (+1.49%), APTV $45.945 (-5.66%), MU $1018.155 (+13.96%), AMRZ $42.34 (-3.62%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-08 18:31 UTC | hourly-check | — | — | — | Portfolio $101.50 (cash $0). BRK.B $505.39 (+1.63%), ET $21.535 (+1.82%), APTV $45.855 (-5.84%), MU $1016.725 (+13.80%), AMRZ $42.205 (-3.93%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-08 19:31 UTC | hourly-check | — | — | — | Last check of trading day. Portfolio $101.38 (cash $0). BRK.B $506.995 (+1.95%), ET $21.485 (+1.58%), APTV $46.07 (-5.40%), MU $1007.55 (+12.77%), AMRZ $42.145 (-4.06%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+
+---
+
+## 2026-09-09 — Path C dedicated check (first day with real Kalshi CPI liquidity)
+
+**Trigger:** User-requested rigorous Path C re-check after observing genuine two-sided Kalshi CPI liquidity for the first time in weeks (prior days: fully illiquid, trivial no-trade).
+
+**Print evaluated:** August 2026 CPI (headline, all-items MoM, seasonally adjusted), BLS release Friday **2026-09-11, 8:30am ET**. Confirmed nearest relevant print (next FOMC ~9/15-16, next NFP ~10/2, both further out). September CPI (KXCPI-26SEP-*, release 10/14) confirmed as the *next* contract, correctly thin (OI 515-1,515 vs August's 962-37,021) — consistent with front-month-liquid/next-month-thin pattern, not a signal itself.
+
+**Timing gate:** PASS today (2026-09-09, any time) — >24h from 9/11 8:30am ET print (32.5-56.5h depending on time of day). **NOTE: window closes tomorrow (9/10) — any Path C position must be entered TODAY or not at all before this print's blackout.**
+
+**Kalshi vs Polymarket cross-check:** AGREE, no data flag. Kalshi KXCPI-26AUG order-book (mid of bid/ask) implies P(MoM≥0.3%)=60%, P(MoM≥0.4%)=13% → modal bucket 0.3-0.4%, probability-weighted expected value ≈0.30-0.32%. Polymarket "August Inflation US - Monthly" (headline) shows near-even 34-35% split between 0.3% and 0.4% buckets — same center of mass. Polymarket Core CPI MoM market also centers on 0.2% (43.5%). No material Kalshi/Polymarket divergence on headline or core.
+
+**Independent anchor (Cleveland Fed Inflation Nowcast, updated 2026-09-08):** headline CPI MoM Aug 2026 = **0.36%**; Core CPI MoM Aug 2026 = **0.20%**. Both land inside/adjacent to the market-implied distributions above (0.36% sits between the market's 0.3% mode and 0.4% secondary bucket; 0.20% core matches Polymarket's 0.2% core mode almost exactly).
+
+**Divergence gate: FAIL (no clear divergence) — market pricing and the Nowcast anchor agree.** ~0.04pp gap between Nowcast (0.36%) and Kalshi-implied EV (~0.32%) is noise, not an explainable regime divergence, and is well inside normal day-to-day nowcast drift. This is agreement, not divergence, on both headline and core.
+
+**Verdict: NO TRADE.** Textbook "agreement = no trade, the default" per SOP Hard Rule 19 / prediction-markets.md guardrail #1. Not a data-availability no-trade (today's data was actually good, liquid, and fully cross-checked) — a genuine divergence-gate no-trade. No Signal-C position opened; none held. (Also moot for capital: portfolio was $0 cash as of 9/8 close, so no order could execute regardless.)
+
+2026-09-09 | skip | — (no ETF candidate reached) | — | prediction-market | Print: Aug-2026 headline CPI MoM, release 9/11/26 8:30am ET. Kalshi KXCPI-26AUG implied EV ≈0.30-0.32% (T0.3 bid/ask .58/.62, T0.4 .12/.14). Polymarket headline ~34-35% on 0.3%/0.4% buckets, core 43.5% on 0.2% — agrees w/ Kalshi. Cleveland Fed Nowcast (as of 9/8): headline 0.36% MoM, core 0.20% MoM — both consistent with market pricing | Divergence gate FAILED — market and independent anchor agree on both headline and core; "agreement = no trade" is the correct default, not a stretched call | AUTONOMOUS skip (data-clean no-divergence, not a data-unavailable default) | Phase-3-override
