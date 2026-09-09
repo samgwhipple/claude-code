@@ -635,3 +635,4 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-09 | skip | MAIR, DYNR, LILA | — | insider | MAIR: Bertarelli block. DYNR: PIPE unit deal. LILA: Malone common vs De Angoitia preference-class (different security) | EXCLUDED — non-organic/mismatched-security purchase patterns | AUTONOMOUS skip | Phase-3-override
 
 2026-09-09 14:31 UTC | hourly-check | — | — | — | Portfolio $101.18 (cash $0). BRK.B $504.96 (+1.54%), ET $21.605 (+2.15%), APTV $45.18 (-7.23%), MU $1031.38 (+15.44%), AMRZ $41.30 (-5.98%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-09-09 15:31 UTC | hourly-check | — | — | — | Portfolio $100.96 (cash $0). BRK.B $506.59 (+1.87%), ET $21.6269 (+2.26%), APTV $44.87 (-7.87%), MU $1023.12 (+14.51%), AMRZ $41.28 (-6.03%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
