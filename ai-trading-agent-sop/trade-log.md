@@ -673,3 +673,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-10 | skip | SAIL, PRTS | — | politician/insider | SAIL: Gottheimer+Cisneros. PRTS: Huffaker+Meniane, recurring | DISQUALIFIED — chase +18.8%/+56.6% respectively | AUTONOMOUS skip | Phase-3-override
 2026-09-10 | skip | INBX, BWFG, CYBN | — | insider | INBX: cap $1.62B. BWFG: cap $529M (also 4-of-5 same-price coordination flag). CYBN: not Robinhood-tradable | DISQUALIFIED — sub-$2B cap or untradable | AUTONOMOUS skip | Phase-3-override
 2026-09-10 | skip | HWKN, CBU, NGL, AMR, TISI, UMBF | — | insider | Yesterday's qualified/candidate names | DISQUALIFIED today — window rolled past 2nd insider (HWKN/CBU/NGL/AMR/TISI) or DRIP-only purchases (UMBF) | AUTONOMOUS skip | Phase-3-override
+
+2026-09-10 14:31 UTC | hourly-check | — | — | — | Portfolio $99.81 (cash $0). BRK.B $506.30 (+1.81%), ET $21.62 (+2.22%), APTV $44.84 (-7.93%), MU $992.40 (+11.07%), AMRZ $40.31 (-8.24%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
