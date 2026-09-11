@@ -719,3 +719,4 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-11 | skip | AAPL, PG, HD, SPCX | — | politician | AAPL/PG/HD: DRIP leg reduces to single filer. SPCX: private SpaceX stock, not tradable | DISQUALIFIED — DRIP-only or untradable | AUTONOMOUS skip | Phase-3-override
 
 2026-09-11 14:31 UTC | hourly-check | — | — | — | Portfolio $99.80 (cash $0). BRK.B $506.82 (+1.92%), ET $21.44 (+1.37%), APTV $45.66 (-6.24%), MU $980.51 (+9.74%), AMRZ $40.495 (-7.82%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-09-11 15:31 UTC | hourly-check | — | — | — | Portfolio $99.89 (cash $0). BRK.B $506.69 (+1.89%), ET $21.43 (+1.32%), APTV $45.81 (-5.93%), MU $980.30 (+9.72%), AMRZ $40.61 (-7.56%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
