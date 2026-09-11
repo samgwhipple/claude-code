@@ -680,3 +680,40 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-10 17:31 UTC | hourly-check | — | — | — | Portfolio $99.74 (cash $0). BRK.B $505.0555 (+1.56%), ET $21.7224 (+2.71%), APTV $45.49 (-6.59%), MU $981.27 (+9.83%), AMRZ $40.045 (-8.84%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-10 18:31 UTC | hourly-check | — | — | — | Portfolio $99.56 (cash $0). BRK.B $505.80 (+1.71%), ET $21.69 (+2.55%), APTV $45.14 (-7.31%), MU $982.81 (+10.00%), AMRZ $39.905 (-9.16%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
 2026-09-10 19:31 UTC | hourly-check | — | — | — | Last check of trading day. Portfolio $99.63 (cash $0). BRK.B $505.55 (+1.66%), ET $21.7241 (+2.72%), APTV $45.115 (-7.36%), MU $983.15 (+10.04%), AMRZ $40.00 (-8.94%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+
+---
+
+## 2026-09-11 — Daily Routine fire #14 (9:40am ET, `trig_01XsUsNTeKF4T9HoZQ22iLUY`)
+
+**Account/portfolio check:** 746043736 reconfirmed agentic-eligible via `get_accounts`. `get_portfolio`: $100.09 total (cash $0, equity $100.09) — well above the $80 stop floor.
+
+**Position management (stop/TP check):** BRK.B $508.21 vs cost $497.30 (+2.19%), ET $21.635 vs cost $21.15 (+2.29%), APTV $45.714 vs cost $48.70 (-6.13%), MU $976.135 vs cost $893.46 (+9.25%), AMRZ $40.81 vs cost $43.93 (-7.10%). None near -15%/+25% — no sells.
+
+**Path A (politicians):** Subagent scan of the Kadoa feed, fresh pull (max filing_date 2026-09-10), ~7-week window. Habitual-trader list re-derived fresh: **Rohit Khanna (D) and April McClain Delaney (D)** remain the top tier by a wide margin (42/32 vs. next-highest 13) — same two names as recent days. Caught a real mislabel again: a GOOGL "Note Coupon" bond tagged CS, correctly excluded by asset-name filter. Also flagged an SPCX ("SpaceX") cluster with 6 members — **not tradable, it's private SpaceX stock, excluded outright (Hard Rule 1).** **Result: large batch of clusters, several new.**
+- **BRK.B** — already held, reconfirmed, now a stable 3-member cluster (Salazar-R, McCormick-R, Moran-R). No new entry.
+- **AAPL, PG, HD** — all DISQUALIFIED: each reduces to a single real buyer once a DRIP-coded leg (explicit "Automatic stock dividend reinvestment" footnote) is excluded, same treatment established yesterday.
+- **AVGO** — recurring, cap huge, chase from worst-case entry ($381.92, 7/24 close) → current $364.42 = **-4.6% (no chase issue)**. Qualified.
+- **NVDA** — new, bipartisan (Rulli-R, Fields-D, McGuire-R). Chase from worst-case entry ($192.53, Fields 6/26 close) → current $221.165 = **+14.9%, barely under 15%.** Qualified.
+- **AMAT** — new, bipartisan (Moskowitz-D, McGuire-R). Chase from worst-case entry ($575.39, Moskowitz 7/13 close) → current $456.43 = **-20.7% (stock fell hard since, no chase issue)**. Qualified.
+- **GOOGL** — new, same-party-R (Rulli, Taylor). Chase from worst-case entry ($343.71, Rulli 6/25 close) → current $338.12 = **-1.6%**. Qualified.
+- **MSFT** — new, bipartisan (Moskowitz-D, Taylor-R), but chase from worst-case entry ($378.91, Moskowitz 6/17 close) → current $497.695 = **+31.4%, DISQUALIFIED** (big MSFT run since late July).
+- **MNST** — new, same-party-D (Moskowitz, Gottheimer). Chase from worst-case entry ($45.83, Moskowitz 6/17 close) → current $43.04 = **-6.1%**. Qualified.
+- **SAIL** — recurring, chase from worst-case entry ($14.77, Cisneros 7/21 close) → current $17.24 = **+16.7%, DISQUALIFIED** (still over, slightly worse than yesterday).
+- **AMD** — Tier-2/stale flag from subagent, but verified: chase from worst-case entry ($466.38, Cisneros 6/5 close) → current $516.45 = **+10.7%, actually clears.** Qualified.
+- **CRM** — Tier-2/stale flag, verified: chase from worst-case entry ($175.35, Wied 6/9 close) → current $249.33 = **+42.2%, DISQUALIFIED** (badly stale, subagent's suspicion confirmed).
+
+**Path B (insiders):** Subagent scan, SEC EDGAR daily-index, 10 trading days ending 9/10, UA header used, `aff10b5One` verified at correct document-level scope. 5,394 filings parsed, 731 qualifying code-P/non-10b5-1 purchases, 46 raw clusters → 33 confirmed after excluding 13 false-positive patterns (PIPE/private-placement ×2, same-beneficial-owner/fund-manager complex ×2, DRIP ×3 [CSBB, RGCO, UMBF], ESPP ×3 [CWBC, KWY, WIX], placeholder-ticker fund-grabbag ×2, zero-price technical ×1). Applied full shared gate:
+- **PASSED (recurring, re-verified fresh):** **DKS** (chase +3.9%), **GME** (chase +12.7%, huge fresh $20.4M CEO buy 9/10), **DY** (chase +6.0%), **EQPT** (chase +5.3%), **CBU** (re-qualified, 2nd insider back in-window, chase +0.4%).
+- **PASSED (new):** **UBER** — CEO Khosrowshahi ($20M wtd-avg $70.96, 9/10) + President/COO Macdonald ($5.3M, 9/4). Chase from worst-case (higher-gain) entry $70.96 → current $71.975 = **+1.4%**. Large, clean, high-conviction cluster.
+- **DISQUALIFIED (cap floor):** **BWFG** (cap $541M — clean 5-director same-day cluster, just fails cap), **INBX** (cap $1.63B, chase itself improved to +12.3% but cap still short), **DXYZ** (Destiny Tech100, cap $995M — also structurally a closed-end fund holding private-company stakes like SpaceX, not a normal operating company), **ATLO** (cap $279M).
+- **DISQUALIFIED (recurring reasons):** **PRTS** (chase now materially worse, price ran to $10.06), **UMBF** (DRIP again), **CYBN** (not Robinhood-tradable, carried forward).
+
+**Path C:** Full post-print divergence check — today's the actual August CPI release (8:30am ET this morning). Kalshi's KXCPI-26AUG/YoY contracts already **finalized and settled exactly to the confirmed actual print** (0.4% MoM / 3.4% YoY) — textbook "market already correctly repriced," no mispricing window existed by design (Kalshi's contracts close 5 min before the release). Also flagged: FOMC meets in 5 days (9/15-16) with a live ~80/19 hold/cut split priced — a fresh Signal-C position today would really be a disguised FOMC bet, not a clean CPI trade. **No trade.**
+
+**Outcome: no trade — zero buying power (well over a week straight at $0 cash now).** Under the "stop excess caution" stance, **AVGO/NVDA/AMAT/GOOGL/MNST/AMD/DKS/GME/DY/EQPT/CBU/UBER** are all logged as fully-qualified "would buy today" candidates if capital were available — **12 candidates, the largest single-day watch list yet.** Per SOP rank order, insider clusters (DKS/GME/DY/EQPT/CBU/UBER) rank above politician clusters; among the politician clusters, NVDA and AMAT are bipartisan (rank higher than the same-party AVGO/GOOGL/MNST/AMD). BRK.B reconfirmed but already held. All need fresh re-verification whenever real cash is next available.
+
+2026-09-11 | skip | DKS, GME, DY, EQPT, CBU, UBER | — | insider | DKS: chase +3.9%. GME: chase +12.7%, fresh $20.4M CEO buy. DY: chase +6.0%. EQPT: chase +5.3%. CBU: re-qualified, chase +0.4%. UBER: CEO+COO, $25M+ combined, chase +1.4% | All pass price/cap/chase/earnings gates — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-09-11 | skip | NVDA, AMAT, AVGO, GOOGL, MNST, AMD | — | politician | NVDA: Rulli+Fields+McGuire (bipartisan), chase +14.9%. AMAT: Moskowitz+McGuire (bipartisan), chase -20.7%. AVGO: Allen+Taylor, chase -4.6%. GOOGL: Rulli+Taylor, chase -1.6%. MNST: Moskowitz+Gottheimer, chase -6.1%. AMD: Cisneros+Allen, chase +10.7% | All pass price/cap/chase/earnings gates — not traded, zero cash | AUTONOMOUS skip (no capital) | Phase-3-override
+2026-09-11 | skip | MSFT, SAIL, CRM | — | politician | MSFT: Moskowitz+Taylor. SAIL: Gottheimer+Cisneros, recurring. CRM: Salazar+Wied | DISQUALIFIED — chase +31.4%/+16.7%/+42.2% respectively | AUTONOMOUS skip | Phase-3-override
+2026-09-11 | skip | BWFG, INBX, DXYZ, ATLO | — | insider | BWFG: cap $541M. INBX: cap $1.63B. DXYZ: cap $995M (closed-end fund holding private stakes). ATLO: cap $279M | DISQUALIFIED — sub-$2B cap | AUTONOMOUS skip | Phase-3-override
+2026-09-11 | skip | AAPL, PG, HD, SPCX | — | politician | AAPL/PG/HD: DRIP leg reduces to single filer. SPCX: private SpaceX stock, not tradable | DISQUALIFIED — DRIP-only or untradable | AUTONOMOUS skip | Phase-3-override
