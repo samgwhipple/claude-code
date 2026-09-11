@@ -717,3 +717,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-11 | skip | MSFT, SAIL, CRM | — | politician | MSFT: Moskowitz+Taylor. SAIL: Gottheimer+Cisneros, recurring. CRM: Salazar+Wied | DISQUALIFIED — chase +31.4%/+16.7%/+42.2% respectively | AUTONOMOUS skip | Phase-3-override
 2026-09-11 | skip | BWFG, INBX, DXYZ, ATLO | — | insider | BWFG: cap $541M. INBX: cap $1.63B. DXYZ: cap $995M (closed-end fund holding private stakes). ATLO: cap $279M | DISQUALIFIED — sub-$2B cap | AUTONOMOUS skip | Phase-3-override
 2026-09-11 | skip | AAPL, PG, HD, SPCX | — | politician | AAPL/PG/HD: DRIP leg reduces to single filer. SPCX: private SpaceX stock, not tradable | DISQUALIFIED — DRIP-only or untradable | AUTONOMOUS skip | Phase-3-override
+
+2026-09-11 14:31 UTC | hourly-check | — | — | — | Portfolio $99.80 (cash $0). BRK.B $506.82 (+1.92%), ET $21.44 (+1.37%), APTV $45.66 (-6.24%), MU $980.51 (+9.74%), AMRZ $40.495 (-7.82%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
