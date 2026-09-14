@@ -753,3 +753,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-14 | skip | AVGO, NVDA, AMAT, GOOGL, MNST, AMD | — | politician | Friday's qualified politician clusters | DISQUALIFIED today — qualifying entry legs aged past the 7-week window (pure rolling-window effect, not a data-quality issue) | AUTONOMOUS skip | Phase-3-override
 2026-09-14 | skip | MSFT, CRM, WMT, PYPL, NOW, CRWD | — | politician | Various near-miss clusters | DISQUALIFIED — 2nd leg is Gilbert Cisneros, newly reclassified as habitual this window | AUTONOMOUS skip | Phase-3-override
 2026-09-14 | skip | INBX | — | insider | Forsyth+Lappe+Kayyem | DISQUALIFIED — cap $1.57B (chase itself now fine at +7.5%) | AUTONOMOUS skip | Phase-3-override
+
+2026-09-14 14:31 UTC | hourly-check | — | — | — | Portfolio $97.79 (cash $0). BRK.B $514.20 (+3.40%), ET $21.4414 (+1.38%), APTV $44.29 (-9.05%), MU $917.815 (+2.72%), AMRZ $39.74 (-9.54%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
