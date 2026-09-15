@@ -788,3 +788,4 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-15 | skip | DKS, CBU, EQPT | — | insider | Recurring watchlist names | DISQUALIFIED — DKS/CBU rolled off the 10-day window, EQPT re-excluded as co-founder brothers | AUTONOMOUS skip | Phase-3-override
 
 2026-09-15 14:31 UTC | hourly-check | — | — | — | Portfolio $97.83 (cash $0). BRK.B $514.925 (+3.55%), ET $21.415 (+1.25%), APTV $43.61 (-10.45%), MU $942.57 (+5.50%), AMRZ $39.20 (-10.77%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-09-15 15:31 UTC | hourly-check | — | — | — | Portfolio $97.72 (cash $0). BRK.B $515.92 (+3.74%), ET $21.415 (+1.25%), APTV $44.06 (-9.53%), MU $929.8252 (+4.07%), AMRZ $39.12 (-10.95%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
