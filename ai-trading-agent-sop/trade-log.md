@@ -786,3 +786,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-15 | skip | OFLX, CYBN, INBX | — | insider | OFLX: cap $263M. CYBN: not Robinhood-tradable. INBX: cap $1.55B | DISQUALIFIED — sub-$2B cap or untradable | AUTONOMOUS skip | Phase-3-override
 2026-09-15 | skip | AAPL, PG | — | politician | AAPL: Fields+Case (DRIP). PG: Taylor+Doggett (DRIP) | DISQUALIFIED — DRIP leg reduces to single filer, recurring | AUTONOMOUS skip | Phase-3-override
 2026-09-15 | skip | DKS, CBU, EQPT | — | insider | Recurring watchlist names | DISQUALIFIED — DKS/CBU rolled off the 10-day window, EQPT re-excluded as co-founder brothers | AUTONOMOUS skip | Phase-3-override
+
+2026-09-15 14:31 UTC | hourly-check | — | — | — | Portfolio $97.83 (cash $0). BRK.B $514.925 (+3.55%), ET $21.415 (+1.25%), APTV $43.61 (-10.45%), MU $942.57 (+5.50%), AMRZ $39.20 (-10.77%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
