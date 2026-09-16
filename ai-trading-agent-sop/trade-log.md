@@ -820,3 +820,4 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-16 | skip | KXFED-26SEP (FOMC) | — | prediction-market | Fed funds rate decision, 2:00pm ET today | No divergence — tight consensus (~88% priced for 25bp cut to 3.50-3.75%); also pre-print, Hard Rule 20 blackout in effect | AUTONOMOUS skip | Phase-3-override
 
 2026-09-16 14:31 UTC | hourly-check | — | — | — | Portfolio $97.63 (cash $0). BRK.B $519.285 (+4.42%), ET $21.23 (+0.38%), APTV $43.82 (-10.02%), MU $932.295 (+4.35%), AMRZ $39.115 (-10.96%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
+2026-09-16 15:31 UTC | hourly-check | — | — | — | Portfolio $97.83 (cash $0). BRK.B $520.53 (+4.67%), ET $21.21 (+0.28%), APTV $43.875 (-9.91%), MU $930.845 (+4.19%), AMRZ $39.485 (-10.12%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
