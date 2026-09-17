@@ -852,3 +852,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-17 | skip | OXM, LMB, MCFT, AVBC, RGCO, ALP | — | insider | Newly-independent clusters this window | DISQUALIFIED — sub-$2B cap ($444M/$628M/$486M/$444M/$226M/$6.6M respectively); ALP also flagged financial-status noncompliant | AUTONOMOUS skip | Phase-3-override
 2026-09-17 | skip | AAPL, PG, AVGO, CRM, MSFT, WMT | — | politician | Recurring near-miss clusters | DISQUALIFIED — AAPL/PG DRIP legs, MSFT's non-habitual leg is mislabeled call options not equity, AVGO/CRM/WMT reduce to 0-1 non-habitual buyer | AUTONOMOUS skip | Phase-3-override
 2026-09-17 | skip | KXFED-26SEP (FOMC, resolved) | — | prediction-market | Fed funds decision resolved to the 3.75-4.00% range | No divergence — exactly the pre-priced consensus outcome (~88%), nothing to trade post-print | AUTONOMOUS skip | Phase-3-override
+
+2026-09-17 14:31 UTC | hourly-check | — | — | — | Portfolio $97.99 (cash $0). BRK.B $511.04 (+2.76%), ET $21.145 (-0.02%), APTV $43.66 (-10.35%), MU $975.53 (+9.19%), AMRZ $38.80 (-11.68%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring
