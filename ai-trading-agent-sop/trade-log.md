@@ -885,3 +885,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-18 | skip | GME | — | insider | Cheng+Grube+Cohen+Attal, cap $11.34B | DISQUALIFIED — chase +19.69% breaches the 15% Hard Rule ceiling (worse than yesterday's +19.50%) | AUTONOMOUS skip | Phase-3-override
 2026-09-18 | skip | CAVA, PNFP | — | insider | Recurring watchlist names | DISQUALIFIED — both second legs are code-G gift transfers, not code-P purchases; each reduces to a single buyer | AUTONOMOUS skip | Phase-3-override
 2026-09-18 | skip | BRK.B, AAPL, PG | — | politician | Recurring names | DISQUALIFIED — BRK.B's McCormick leg rolled out of the 7-week window (Salazar alone is not a cluster); AAPL/PG remain DRIP-broken | AUTONOMOUS skip | Phase-3-override
+
+2026-09-18 14:31 UTC | hourly-check | — | — | — | Portfolio $97.61 (cash $0). BRK.B $507.04 (+1.96%), ET $21.075 (-0.35%), APTV $43.34 (-11.00%), MU $996.1362 (+11.49%), AMRZ $37.755 (-14.05%, ticked back up slightly from yesterday's -14.39% close) — all vs cost | No stop/TP triggers | No action, log-only | monitoring, watching AMRZ closely
