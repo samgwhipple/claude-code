@@ -921,3 +921,4 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-21 | skip | BRK.B, AAPL, PG | — | politician | Recurring names | DISQUALIFIED — BRK.B remains single-filer (Salazar only); AAPL/PG remain DRIP-broken | AUTONOMOUS skip | Phase-3-override
 
 2026-09-21 14:40 UTC | hourly-check | — | — | — | Portfolio $98.75 (cash $0). BRK.B $508.2801 (+2.21%), ET $20.935 (-1.02%), APTV $43.35 (-10.99%), MU $1041.27 (+16.55%, pulled back from this morning's +18.79% peak), AMRZ $38.205 (-13.03%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring MU for a possible +25% take-profit
+2026-09-21 15:40 UTC | hourly-check | — | — | — | Portfolio $98.87 (cash $0). BRK.B $507.67 (+2.09%), ET $20.8242 (-1.54%), APTV $43.945 (-9.76%), MU $1038.95 (+16.28%), AMRZ $38.34 (-12.73%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring MU for a possible +25% take-profit
