@@ -919,3 +919,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-21 | skip | INBX, LILA | — | insider | Recurring near-miss clusters | DISQUALIFIED — sub-$2B cap ($1.65B/$1.70B respectively) | AUTONOMOUS skip | Phase-3-override
 2026-09-21 | skip | TPL | — | insider | Horizon Kinetics (10% owner) 1 sh/day x9 days + Doyle 5 sh | DISQUALIFIED — programmatic/administrative pattern, not genuine discretionary conviction | AUTONOMOUS skip | Phase-3-override
 2026-09-21 | skip | BRK.B, AAPL, PG | — | politician | Recurring names | DISQUALIFIED — BRK.B remains single-filer (Salazar only); AAPL/PG remain DRIP-broken | AUTONOMOUS skip | Phase-3-override
+
+2026-09-21 14:40 UTC | hourly-check | — | — | — | Portfolio $98.75 (cash $0). BRK.B $508.2801 (+2.21%), ET $20.935 (-1.02%), APTV $43.35 (-10.99%), MU $1041.27 (+16.55%, pulled back from this morning's +18.79% peak), AMRZ $38.205 (-13.03%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring MU for a possible +25% take-profit
