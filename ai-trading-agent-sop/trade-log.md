@@ -955,3 +955,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-22 | skip | GME | — | insider | Cohen+Attal+Grube+Cheng, cap $11.94B, Cohen added a 1.15M-sh tranche 9/21 | DISQUALIFIED — chase +25.88%, worse than ever | AUTONOMOUS skip | Phase-3-override
 2026-09-22 | skip | GAM | — | insider | Priest+Stark+Jin, closed-end fund | DISQUALIFIED — sub-$2B cap ($1.56B) | AUTONOMOUS skip | Phase-3-override
 2026-09-22 | skip | BRK.B, PG | — | politician | Recurring names | DISQUALIFIED — BRK.B remains single-filer (Salazar only); PG remains DRIP-broken | AUTONOMOUS skip | Phase-3-override
+
+2026-09-22 14:41 UTC | hourly-check | — | — | — | Portfolio $99.88 (cash $0). BRK.B $503.602 (+1.27%), ET $20.90 (-1.18%), APTV $43.91 (-9.84%), MU $1074.955 (+20.32% — jumped sharply, now notably close to the +25% take-profit), AMRZ $39.03 (-11.15%) — all vs cost | No stop/TP triggers | No action, log-only | MU needs very close monitoring — approaching the take-profit trigger
