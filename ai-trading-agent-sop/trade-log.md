@@ -988,3 +988,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-23 | skip | CROX, TH, GME | — | insider | Recurring watchlist names | DISQUALIFIED — chase remains over the 15% ceiling for CROX/TH, GME even further over (Cohen's 9/21 tranche unchanged) | AUTONOMOUS skip | Phase-3-override
 2026-09-23 | skip | RWAY, GAM | — | insider | Goldthorpe+Rovner (RWAY); Priest+Stark+Jin (GAM) | DISQUALIFIED — sub-$2B cap ($282M / $1.56B respectively) | AUTONOMOUS skip | Phase-3-override
 2026-09-23 | skip | BRK.B, PG, AAPL | — | politician | Recurring/near-miss names | DISQUALIFIED — BRK.B remains single-filer; PG and AAPL both DRIP-broken | AUTONOMOUS skip | Phase-3-override
+
+2026-09-23 14:41 UTC | hourly-check | — | — | — | Portfolio $99.74 (cash $0). BRK.B $509.135 (+2.38%), ET $20.675 (-2.25%), APTV $44.58 (-8.46%), MU $1076.8402 (+20.53%, pulled back from this morning's +22.12%), AMRZ $37.97 (-13.56%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring MU closely
