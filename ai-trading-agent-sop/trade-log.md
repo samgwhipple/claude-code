@@ -1019,3 +1019,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-24 | skip | GME | — | insider | Cohen+Attal cluster, cap $11.99B | DISQUALIFIED — chase +18.8% (Attal's 9/10 $20.00 leg vs current $23.76), over 15% ceiling | AUTONOMOUS skip | Phase-3-override
 2026-09-24 | skip | TYRA, MNR | — | insider | 2-insider clusters, otherwise qualifying | DISQUALIFIED — sub-$2B cap ($1.59B / $1.75B respectively) | AUTONOMOUS skip | Phase-3-override
 2026-09-24 | skip | PG, AAPL, GOOGL | — | politician | Recurring/near-miss names | DISQUALIFIED — PG/AAPL DRIP-broken (Doggett/Case), GOOGL second leg was a bond not equity | AUTONOMOUS skip | Phase-3-override
+
+2026-09-24 14:40 UTC | hourly-check | — | — | — | Portfolio $98.43 (cash $0). BRK.B $507.665 (+2.08%), ET $20.489 (-3.13%), APTV $43.535 (-10.60%), MU $1054.10 (+17.98%), AMRZ $37.68 (-14.23%) — all vs cost | No stop/TP triggers | No action, log-only | AMRZ closest to -15% stop-loss, monitoring closely
