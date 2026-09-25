@@ -1053,3 +1053,5 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-25 | skip | TH | — | insider | Archer+Schrenk cluster, cap $2.15B | DISQUALIFIED — chase +15.28%, marginally over the 15% ceiling (was passing yesterday at +14.87%) | AUTONOMOUS skip | Phase-3-override
 2026-09-25 | skip | MNR, NYAX, OXM | — | insider | Otherwise-qualifying clusters | DISQUALIFIED — sub-$2B cap ($1.75B / $1.69B / $392M respectively) | AUTONOMOUS skip | Phase-3-override
 2026-09-25 | skip | AAPL, PG | — | politician | Recurring near-miss names | DISQUALIFIED — both DRIP-broken again (Ed Case/AAPL, Lloyd Doggett/PG) | AUTONOMOUS skip | Phase-3-override
+
+2026-09-25 14:40 UTC | hourly-check | — | — | — | Portfolio $98.93 (cash $0). BRK.B $504.042 (+1.36%), ET $20.1899 (-4.54%), APTV $44.21 (-9.22%), MU $1082.00 (+21.10%), AMRZ $37.75 (-14.07%) — all vs cost | No stop/TP triggers | No action, log-only | MU closest to +25% take-profit, monitoring closely
