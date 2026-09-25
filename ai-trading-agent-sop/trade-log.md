@@ -1055,3 +1055,4 @@ Both prior Routines were gone (belonged to the disconnected session) and were re
 2026-09-25 | skip | AAPL, PG | — | politician | Recurring near-miss names | DISQUALIFIED — both DRIP-broken again (Ed Case/AAPL, Lloyd Doggett/PG) | AUTONOMOUS skip | Phase-3-override
 
 2026-09-25 14:40 UTC | hourly-check | — | — | — | Portfolio $98.93 (cash $0). BRK.B $504.042 (+1.36%), ET $20.1899 (-4.54%), APTV $44.21 (-9.22%), MU $1082.00 (+21.10%), AMRZ $37.75 (-14.07%) — all vs cost | No stop/TP triggers | No action, log-only | MU closest to +25% take-profit, monitoring closely
+2026-09-25 15:40 UTC | hourly-check | — | — | — | Portfolio $98.85 (cash $0). BRK.B $504.575 (+1.46%), ET $20.185 (-4.56%), APTV $44.17 (-9.30%), MU $1077.825 (+20.64%), AMRZ $37.77 (-14.02%) — all vs cost | No stop/TP triggers | No action, log-only | MU closest to +25% take-profit, monitoring closely
