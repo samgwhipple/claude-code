@@ -1091,3 +1091,5 @@ All 8 still clear price/cap/chase on today's prices; earnings dates unchanged fr
 2026-09-28 | skip | AVGO | — | politician | Allen (R, 8/12) + Taylor (R, 8/26), cap $1.68T | Fresh Path A confirmation — no chase risk vs historicals-proxy entries, passes full gate | AUTONOMOUS skip (no capital) | Phase-3-override
 2026-09-28 | skip | ADC, CELH, COO, KRMN, GME, DKS, HHH | — | insider | Carried forward from Friday's confirmed clusters, NOT re-derived from EDGAR today | Still price/cap/chase-qualified on today's live prices (degraded check — cluster freshness unverified) | AUTONOMOUS skip (no capital) | Phase-3-override
 2026-09-28 | skip | AAPL, GOOGL, PG | — | politician | Recurring near-miss names | DISQUALIFIED — AAPL/PG DRIP-broken again (Case/Doggett), GOOGL second leg again a corporate note not equity | AUTONOMOUS skip | Phase-3-override
+
+2026-09-28 14:40 UTC | hourly-check | — | — | — | Portfolio $97.98 (cash $0). BRK.B $505.285 (+1.61%), ET $19.935 (-5.74%), APTV $43.8899 (-9.88%), MU $1044.98 (+16.96%), AMRZ $38.175 (-13.10%) — all vs cost | No stop/TP triggers | No action, log-only | MU pulled back from recent highs; monitoring
