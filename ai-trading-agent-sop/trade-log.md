@@ -1093,3 +1093,4 @@ All 8 still clear price/cap/chase on today's prices; earnings dates unchanged fr
 2026-09-28 | skip | AAPL, GOOGL, PG | — | politician | Recurring near-miss names | DISQUALIFIED — AAPL/PG DRIP-broken again (Case/Doggett), GOOGL second leg again a corporate note not equity | AUTONOMOUS skip | Phase-3-override
 
 2026-09-28 14:40 UTC | hourly-check | — | — | — | Portfolio $97.98 (cash $0). BRK.B $505.285 (+1.61%), ET $19.935 (-5.74%), APTV $43.8899 (-9.88%), MU $1044.98 (+16.96%), AMRZ $38.175 (-13.10%) — all vs cost | No stop/TP triggers | No action, log-only | MU pulled back from recent highs; monitoring
+2026-09-28 15:40 UTC | hourly-check | — | — | — | Portfolio $97.63 (cash $0). BRK.B $505.175 (+1.58%), ET $19.985 (-5.51%), APTV $43.6822 (-10.30%), MU $1041.595 (+16.58%), AMRZ $37.69 (-14.20%) — all vs cost | No stop/TP triggers | No action, log-only | AMRZ drifting back toward -15%, monitoring
