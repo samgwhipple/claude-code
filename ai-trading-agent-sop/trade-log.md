@@ -1154,3 +1154,5 @@ All 8 still clear price/cap/chase on today's prices; earnings dates unchanged fr
 
 2026-09-30 | skip | AVGO | — | politician | Allen (R, 8/12) + Taylor (R, 8/26), cap $1.69T | Fresh Path A confirmation — no chase risk, price below both proxy entries | AUTONOMOUS skip (no capital) | Phase-3-override
 2026-09-30 | skip | ADC, CELH, COO, KRMN, GME, DKS, CROX, HHH | — | insider | Carried forward from 9/29's confirmed clusters, NOT re-derived from EDGAR today (Path B killed by sustained classifier outage) | Still price/cap/chase-qualified on today's live prices (degraded check — cluster freshness unverified). HHH chase now +14.90%, right at the ceiling | AUTONOMOUS skip (no capital) | Phase-3-override
+
+2026-09-30 14:40 UTC | hourly-check | — | — | — | Portfolio $97.82 (cash $0). BRK.B $500.46 (+0.64%), ET $19.8538 (-6.13%), APTV $43.53 (-10.62%), MU $1069.825 (+19.74%), AMRZ $37.55 (-14.52%) — all vs cost | No stop/TP triggers | No action, log-only | AMRZ still the one to watch, monitoring closely
