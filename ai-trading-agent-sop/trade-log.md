@@ -1157,3 +1157,4 @@ All 8 still clear price/cap/chase on today's prices; earnings dates unchanged fr
 
 2026-09-30 14:40 UTC | hourly-check | — | — | — | Portfolio $97.82 (cash $0). BRK.B $500.46 (+0.64%), ET $19.8538 (-6.13%), APTV $43.53 (-10.62%), MU $1069.825 (+19.74%), AMRZ $37.55 (-14.52%) — all vs cost | No stop/TP triggers | No action, log-only | AMRZ still the one to watch, monitoring closely
 2026-09-30 15:40 UTC | hourly-check | — | — | — | Portfolio $97.94 (cash $0). BRK.B $500.2458 (+0.59%), ET $19.805 (-6.36%), APTV $43.58 (-10.51%), MU $1075.01 (+20.32%), AMRZ $37.62 (-14.36%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring AMRZ closely
+2026-09-30 16:40 UTC | hourly-check | — | — | — | Portfolio $97.83 (cash $0). BRK.B $500.67 (+0.68%), ET $19.7899 (-6.43%), APTV $43.42 (-10.84%), MU $1071.9596 (+19.98%), AMRZ $37.665 (-14.26%) — all vs cost | No stop/TP triggers | No action, log-only | monitoring AMRZ closely
