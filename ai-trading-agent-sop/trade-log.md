@@ -1241,3 +1241,5 @@ No stop-loss or take-profit triggers today. No sell action needed.
 **Not executed: account cash is $0** (unchanged from yesterday — AMRZ recovering didn't free any cash since no sell occurred). Both FUL and XENE logged as qualified watch-items, same pattern as yesterday's XENE entry. FUL is the stronger signal of the two (7-director cluster vs. 2-person same-day cluster for XENE) if cash becomes available and both still qualify at that time.
 
 **Outcome (full day):** No trades executed. AMRZ recovered above -15% (no action needed, prior block moot). Path A: no candidates (same exclusion list, zero clusters survive). Path B: FUL and XENE both qualify on every gate but un-executable due to $0 cash — logged as watch-items, FUL preferred if a choice must be made later. Path C: not applicable. Portfolio $98.91.
+
+2026-10-02 14:40 UTC | hourly-check | — | — | — | Portfolio $98.75 (cash $0). BRK.B $501.98 (+0.94%), ET $20.265 (-4.18%), APTV $43.51 (-10.66%), MU $1091.98 (+22.22%), AMRZ $37.485 (-14.66%) — all vs cost | No stop/TP triggers | No action, log-only | MU approaching +25% TP; AMRZ well clear of -15% threshold
