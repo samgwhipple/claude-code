@@ -1228,3 +1228,16 @@ No stop-loss or take-profit triggers today. No sell action needed.
 **Path B (insiders):** SEC EDGAR daily-index cluster scan launched as a background subagent (5-trading-day window: 2026-09-26 through 2026-10-02). Result pending — will be appended when it completes.
 
 **Path C:** No Kalshi/prediction-market tooling available this session; no major macro print or scheduled event flagged for today. Path C: not actively used.
+
+**Path B (insiders) — result:** Background subagent completed. 5-trading-day EDGAR scan (09-28 through 10-02; 09-26 given in the task is a Saturday, substituted 09-28 to keep a true 5-trading-day window; Oct 2 daily-index not yet published, substituted SEC full-text search for partial-day coverage). Found 5 raw qualifying clusters (2+ distinct people, open-market P, non-10b5-1, non-identical price/date): PRHI (5 insiders incl. CEO/CFO), FUL (7 outside directors, broadest cluster), ANIX (3 insiders), DTIL (3 directors), XENE (CEO+CFO, re-appearing from yesterday — re-verified fresh, not carried forward). False positives excluded: Simon Property Group (11 directors, identical price/day — DRIP-style plan), Finward Bancorp (fractional-share DRIP artifact, same false positive as prior days), Nippon Life/Saba Capital (GP/fund-manager chain), First Seacoast Bancorp (code D dispositions from a merger, not buys), Riley Exploration Permian (code F tax withholding), Aberdeen fund complex (same 3 officers across 4 affiliated funds — GP chain), Nayax/Uxin/Sky Harbour (only 1 distinct insider each, fails cluster test).
+
+**Shared-gate check on all 5 raw clusters:**
+- PRHI: price $7.25 (≥$5 ✓) but market cap **$27.2M** — fails the $2B floor by two orders of magnitude. Excluded.
+- ANIX: price **$2.825** — fails the $5 floor (penny-stock territory, also a Hard Rule exclusion). Excluded.
+- DTIL: price $6.31 (≥$5 ✓) but market cap **$174.2M** — fails the $2B floor. Excluded.
+- **FUL**: price $51.36 (≥$5 ✓), market cap **$2.77B** (≥$2B ✓). Last earnings already reported 2026-09-23 (before the cluster's buy dates), next earnings 2027-01-13 — far outside the 2-trading-day window ✓. Chase using worst-case-member entry (lowest of the 7 directors' prices, $48.96, Trangsrud 9/28): (51.36-48.96)/48.96 = **+4.90%**, well under 15% ✓. **Clears every gate.**
+- **XENE**: price $38.38, market cap $3.72B — both pass. Earnings still 2026-11-02 (re-confirmed fresh today, 31 days out) ✓. Chase using worst-case entry ($37.316, Kelly): (38.38-37.316)/37.316 = **+2.85%** ✓. **Clears every gate** (re-verified fresh, same conclusion as yesterday).
+
+**Not executed: account cash is $0** (unchanged from yesterday — AMRZ recovering didn't free any cash since no sell occurred). Both FUL and XENE logged as qualified watch-items, same pattern as yesterday's XENE entry. FUL is the stronger signal of the two (7-director cluster vs. 2-person same-day cluster for XENE) if cash becomes available and both still qualify at that time.
+
+**Outcome (full day):** No trades executed. AMRZ recovered above -15% (no action needed, prior block moot). Path A: no candidates (same exclusion list, zero clusters survive). Path B: FUL and XENE both qualify on every gate but un-executable due to $0 cash — logged as watch-items, FUL preferred if a choice must be made later. Path C: not applicable. Portfolio $98.91.
