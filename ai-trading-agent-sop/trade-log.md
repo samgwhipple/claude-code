@@ -1249,3 +1249,21 @@ No stop-loss or take-profit triggers today. No sell action needed.
 2026-10-02 17:40 UTC | hourly-check | — | — | — | Portfolio $98.46 (cash $16.97). BRK.B $502.445 (+1.05%), ET $20.3419 (-3.82%), APTV $43.54 (-10.58%), MU $1079.215 (+20.80%) — all vs cost | No stop/TP triggers | No action, log-only | Stable check, no notable movement
 2026-10-02 18:40 UTC | hourly-check | — | — | — | Portfolio $98.25 (cash $16.97). BRK.B $502.8701 (+1.12%), ET $20.335 (-3.85%), APTV $43.365 (-10.95%), MU $1072.50 (+20.03%) — all vs cost | No stop/TP triggers | No action, log-only | MU pulled back slightly from +22% high, still well clear of +25% TP
 2026-10-02 19:40 UTC | hourly-check | — | — | — | Portfolio $98.42 (cash $16.97). BRK.B $503.415 (+1.23%), ET $20.405 (-3.52%), APTV $43.54 (-10.58%), MU $1073.25 (+20.12%) — all vs cost | No stop/TP triggers | No action, log-only | Last check of the day. AMRZ sold earlier today (first successful order execution); $16.97 cash idle, FUL/XENE watch-items pending tomorrow's daily cycle
+
+## 2026-10-05 — Daily Routine fire (Monday; weekend skipped, no checks needed Sat/Sun)
+
+**Account/portfolio check:** get_accounts confirms 746043736 ("Agentic") agentic_allowed:true. get_portfolio: total_value $98.1410, cash $16.97 — above the $80 hard-stop floor, proceeding.
+
+**Position management (stop/TP check):** Live quotes at 13:41 UTC vs. cost basis (4 positions, AMRZ sold Friday):
+- BRK.B: cost $497.30, last $502.22 → +0.99%
+- ET: cost $21.15, last $20.415 → -3.48%
+- APTV: cost $48.70, last $43.529 → -10.62%
+- MU: cost $893.46, last $1063.325 → +19.02%
+
+No stop-loss or take-profit triggers. No sell action needed.
+
+**Path A (politicians):** Fetched Kadoa trades.json fresh (feed advanced slightly, most recent transaction_date now 2026-09-23). Re-derived habitual-trader exclusion list fresh from trailing ~3-month counts: Rohit Khanna (518), Donald J Trump (363), April McClain Delaney (140), Kevin Hern (139), Gilbert Cisneros (124) — same natural break as prior days, confirmed unchanged. Filtered Purchase-type transactions since 2026-08-29, grouped by ticker: only one raw cluster (null-ticker group — municipal bonds/hedge-fund LLCs/partnerships; Donald Sternoff Beyer Jr newly appears but his trades are all municipal bonds, confirmed non-equity). Notably, **WFC (yesterday's near-miss cluster) rolled off the window entirely** — no longer appears at all. After exclusions: **zero qualifying clusters.** Path A: no candidates today.
+
+**Path B (insiders):** SEC EDGAR daily-index cluster scan launched as a background subagent (5-trading-day window: 2026-09-29 through 2026-10-05), explicitly instructed to re-verify FUL and XENE fresh rather than assume they still qualify. Result pending — will be appended when it completes.
+
+**Path C:** No Kalshi/prediction-market tooling available this session; no major macro print or scheduled event flagged for today. Path C: not actively used.
