@@ -1308,3 +1308,14 @@ No stop-loss or take-profit triggers. No sell action needed.
 **Path B (insiders):** SEC EDGAR daily-index cluster scan launched as a background subagent (5-trading-day window: 2026-09-30 through 2026-10-06), explicitly instructed to re-verify FUL, XENE, and GME fresh rather than assume they still qualify. Result pending — will be appended when it completes.
 
 **Path C:** No Kalshi/prediction-market tooling available this session; no major macro print or scheduled event flagged for today. Path C: not actively used.
+
+**Path B (insiders) — result:** Background subagent completed (5-trading-day window: 09-30 through 10-06; 10/6's daily-index not yet published, substituted EDGAR real-time Form-4 feed for today's partial coverage, cross-checked raw .idx for near-misses). ~4,026 filing rows processed via full-text search, ~55 candidate issuers deep-verified via XML (~160 individual filings). **All three prior candidates re-confirmed clean, no new additions found:**
+- **FUL** — same 7-director cluster (9/28-9/30 transactions), unchanged.
+- **XENE** — same CEO+CFO cluster (9/30), unchanged.
+- **GME** — Ryan Cohen (CEO/Chairman, 700,000 sh @ $24.4061, 10/2) + Nat Turner (director, 10,462 sh @ $24.33, 10/1); nearly missed by the subagent's primary method (full-text-search indexing lag) but caught via raw .idx cross-check. Two other GME filers in the window were sales (code S), correctly excluded.
+
+False positives excluded this run: Auburn National Bancorporation (DRIP, tiny lots near-identical price), Willamette Valley Vineyards (recurring DRIP pattern), Incyte (Baker Bros GP/fund chain), Bumble (Blackstone GP/fund/holdco chain, 45 pseudo-distinct CIKs), plus several single-purchaser near-misses (Armour Residential REIT, Liberty Latin America, Jewett Cameron, F&G Annuities, SilverBow Mining, Clipper Realty) that failed the 2+-distinct-insider test.
+
+**Live re-check, no new buy:** GME $24.7882, XENE $37.145 (both drifted down slightly from yesterday, still comfortably within chase bounds based on yesterday's worst-case entries). **No trade executed** — portfolio $98.99, cash $4.97, and the 5% cash-buffer requirement (~$4.95 on this portfolio size) leaves only ~$0.02 deployable, not enough to place any order. FUL (bought yesterday) continues to be held; GME and XENE remain qualified watch-items, unexecuted purely due to lack of cash, not any gate failure.
+
+**Outcome (full day):** No trades executed. No stop-loss/take-profit triggers. Path A: no candidates. Path B: FUL/XENE/GME all re-confirmed qualifying, but $4.97 cash (below the usable threshold after the 5% buffer) prevented any new buy. Portfolio $98.99.
